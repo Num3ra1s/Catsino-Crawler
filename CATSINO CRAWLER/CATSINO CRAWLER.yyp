@@ -34,12 +34,14 @@
   },
   "name":"CATSINO CRAWLER",
   "resources":[
+    {"id":{"name":"room_2","path":"rooms/room_2/room_2.yy",},},
     {"id":{"name":"start_room","path":"rooms/start_room/start_room.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"start_room","path":"rooms/start_room/start_room.yy",},},
+    {"roomId":{"name":"room_2","path":"rooms/room_2/room_2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
