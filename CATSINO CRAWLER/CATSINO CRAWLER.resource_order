@@ -16,7 +16,5 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
-  "ResourceOrderSettings":[
-    {"name":"room_2","order":1,"path":"rooms/room_2/room_2.yy",},
-  ],
+  "ResourceOrderSettings":[],
 }
