@@ -18,5 +18,6 @@
   ],
   "ResourceOrderSettings":[
     {"name":"D6projectile","order":1,"path":"sprites/D6projectile/D6projectile.yy",},
+    {"name":"Sprite3","order":2,"path":"sprites/Sprite3/Sprite3.yy",},
   ],
 }

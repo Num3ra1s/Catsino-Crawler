@@ -5,5 +5,5 @@ if candash == true {
  tempdirection = direction
  motion_add(direction, 30);
  alarm[0]=8;
- alarm[1]=60;
+ alarm[1]=15;
 }

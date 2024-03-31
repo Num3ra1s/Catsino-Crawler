@@ -1,5 +1,5 @@
 /// @description Basic Movement
-// You can write your code in this editor
+
 image_angle = point_direction(x,y,mouse_x,mouse_y)
 if keyboard_check(87){
 	y = y - 7
