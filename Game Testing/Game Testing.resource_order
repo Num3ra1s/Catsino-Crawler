@@ -13,11 +13,12 @@
     {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
+    {"name":"Sprite Sheets","order":3,"path":"folders/Sprites/Sprite Sheets.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"D6projectile","order":1,"path":"sprites/D6projectile/D6projectile.yy",},
-    {"name":"Sprite3","order":2,"path":"sprites/Sprite3/Sprite3.yy",},
+    {"name":"obj_bullet","order":1,"path":"objects/obj_bullet/obj_bullet.yy",},
+    {"name":"spr_bullet","order":1,"path":"sprites/spr_bullet/spr_bullet.yy",},
   ],
 }
