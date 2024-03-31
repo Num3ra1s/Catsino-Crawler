@@ -1,3 +1,3 @@
-/// @description Shooting Cooldown
+/// @description Attack Cooldown
 
-can_shoot = true;
+can_attack = true;
