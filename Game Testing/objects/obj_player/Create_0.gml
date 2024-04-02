@@ -1,5 +1,5 @@
 /// @description Init variables
-
+dash_count = 3;
 can_dash = true;
 can_attack = true;
 temp_direction = 0;
