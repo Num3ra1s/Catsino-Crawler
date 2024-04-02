@@ -19,9 +19,10 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obj_bullet","order":1,"path":"objects/obj_bullet/obj_bullet.yy",},
-    {"name":"obj_enemy","order":2,"path":"objects/obj_enemy/obj_enemy.yy",},
     {"name":"obj_damagetext","order":3,"path":"objects/obj_damagetext/obj_damagetext.yy",},
+    {"name":"obj_enemy","order":2,"path":"objects/obj_enemy/obj_enemy.yy",},
     {"name":"spr_bullet","order":1,"path":"sprites/spr_bullet/spr_bullet.yy",},
     {"name":"Sprite4","order":4,"path":"sprites/Sprite4/Sprite4.yy",},
+    {"name":"test_sprite","order":5,"path":"sprites/test_sprite/test_sprite.yy",},
   ],
 }
