@@ -3,9 +3,9 @@
   "%Name":"spr_bullet",
   "bboxMode":0,
   "bbox_bottom":27,
-  "bbox_left":2,
-  "bbox_right":29,
-  "bbox_top":3,
+  "bbox_left":3,
+  "bbox_right":28,
+  "bbox_top":4,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -20,6 +20,7 @@
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"1e5031bc-7ce5-4825-b9be-bbeb258e415c","blendMode":0,"displayName":"default","isLocked":false,"name":"1e5031bc-7ce5-4825-b9be-bbeb258e415c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"08b62aae-2ce1-4325-a417-3f189bb05833","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"08b62aae-2ce1-4325-a417-3f189bb05833","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_bullet",
   "nineSlice":{
