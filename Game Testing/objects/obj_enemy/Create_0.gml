@@ -1,3 +1,5 @@
 /// @description Variables
 // You can write your code in this editor
-totalhp=100;
+totalhp=25;
+movementtype=0;
+turn=true;
