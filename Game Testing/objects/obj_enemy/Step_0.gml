@@ -6,14 +6,14 @@ if totalhp <= 0{
 image_angle=point_direction(x,y,obj_player.x,obj_player.y)
 if turn == true {
 	turn = false;
-	alarm[0]=100;
 	movementtype=irandom_range(0,1);
 	if movementtype==0{
 		motion_add(point_direction(x,y,obj_player.x,obj_player.y), 10);
-		alarm[1]=30;
+		alarm[1]=20
 	}
 	if movementtype==1{
 		motion_add(random(360), 10);
-		alarm[1]=30;
+		alarm[1]=20;
 	}
+	alarm[0]=100;
 }
