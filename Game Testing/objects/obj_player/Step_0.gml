@@ -1,5 +1,4 @@
 /// @description Basic Movement
-
 image_angle = point_direction(x,y,mouse_x,mouse_y)
 if keyboard_check(87){
 	y = y - 7
@@ -17,3 +16,6 @@ if keyboard_check(68){
 	x = x + 7
 	direction = 0
 }
+x = clamp(x,0, room_width);
+
+y= clamp(y,0,room_height);
