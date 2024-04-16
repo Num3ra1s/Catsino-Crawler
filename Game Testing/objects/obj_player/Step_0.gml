@@ -16,6 +16,6 @@ if keyboard_check(68){
 	x = x + 7
 	direction = 0
 }
-x = clamp(x,0, room_width);
+x = clamp(x,20, room_width-20);
 
-y= clamp(y,0,room_height);
+y= clamp(y,20,room_height-70);

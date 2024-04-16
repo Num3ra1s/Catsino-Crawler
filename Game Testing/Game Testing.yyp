@@ -38,9 +38,10 @@
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
     {"id":{"name":"obj_damagetext","path":"objects/obj_damagetext/obj_damagetext.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
-    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_enemybullet","path":"objects/obj_enemybullet/obj_enemybullet.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
+    {"id":{"name":"StartRoom","path":"rooms/StartRoom/StartRoom.yy",},},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},},
     {"id":{"name":"spr_enemybullet","path":"sprites/spr_enemybullet/spr_enemybullet.yy",},},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
@@ -51,7 +52,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
+    {"roomId":{"name":"StartRoom","path":"rooms/StartRoom/StartRoom.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

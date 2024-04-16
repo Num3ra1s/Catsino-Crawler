@@ -15,5 +15,8 @@ if turn == true {
 		motion_add(random(360), 10);
 		alarm[1]=20;
 	}
-	alarm[0]=100;
+	alarm[0]=irandom_range(125,175);
 }
+x = clamp(x,20, room_width-20);
+
+y= clamp(y,20,room_height-70);
