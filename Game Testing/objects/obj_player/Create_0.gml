@@ -6,7 +6,7 @@ can_dash = true;
 can_attack = true;
 temp_direction = 0;
 weapon = WEAPON_TYPES.GUN;
-weapon_cooldown = 20;
+weapon_cooldown = 30;
 
 enum WEAPON_TYPES{
 	GUN,

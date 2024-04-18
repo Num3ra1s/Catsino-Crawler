@@ -3,3 +3,4 @@
 totalhp=25;
 movementtype=0;
 turn=true;
+iframes=false;

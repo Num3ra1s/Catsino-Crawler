@@ -4,6 +4,3 @@ instance_destroy(other)
 if dashing==false{
 	hp=hp-1;
 }
-if hp<=0 {
-	game_end();	
-}
