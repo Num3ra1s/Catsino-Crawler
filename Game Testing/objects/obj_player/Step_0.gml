@@ -19,7 +19,7 @@ if keyboard_check(68){
 x = clamp(x,20, room_width-20);
 
 y= clamp(y,20,room_height-70);
-//end game
+//kill player
 if hp<=0 {
 	game_end();	
 }

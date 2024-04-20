@@ -8,8 +8,8 @@
   "name":"obj_bullet",
   "overriddenProperties":[],
   "parent":{
-    "name":"RoomTransitions",
-    "path":"folders/Objects/RoomTransitions.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
