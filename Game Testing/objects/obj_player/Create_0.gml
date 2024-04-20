@@ -1,6 +1,6 @@
 /// @description Init variables
 dash_count = 3;
-hp=3;
+hp=30;
 dashing = false;
 can_dash = true;
 can_attack = true;
