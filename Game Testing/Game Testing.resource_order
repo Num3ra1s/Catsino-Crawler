@@ -22,8 +22,8 @@
   "ResourceOrderSettings":[
     {"name":"obj_bullet","order":5,"path":"objects/obj_bullet/obj_bullet.yy",},
     {"name":"obj_damagetext","order":1,"path":"objects/obj_damagetext/obj_damagetext.yy",},
-    {"name":"obj_enemybullet","order":2,"path":"objects/obj_enemybullet/obj_enemybullet.yy",},
     {"name":"obj_enemybasic","order":1,"path":"objects/obj_enemybasic/obj_enemybasic.yy",},
+    {"name":"obj_enemybullet","order":2,"path":"objects/obj_enemybullet/obj_enemybullet.yy",},
     {"name":"obj_roomtransition1_0","order":1,"path":"objects/obj_roomtransition1_0/obj_roomtransition1_0.yy",},
     {"name":"Room0","order":1,"path":"rooms/Room0/Room0.yy",},
     {"name":"Room1","order":2,"path":"rooms/Room1/Room1.yy",},

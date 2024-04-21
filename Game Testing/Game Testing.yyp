@@ -37,11 +37,12 @@
   },
   "name":"Game Testing",
   "resources":[
+    {"id":{"name":"dialog_font","path":"fonts/dialog_font/dialog_font.yy",},},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
     {"id":{"name":"obj_damagetext","path":"objects/obj_damagetext/obj_damagetext.yy",},},
+    {"id":{"name":"obj_enemybasic","path":"objects/obj_enemybasic/obj_enemybasic.yy",},},
     {"id":{"name":"obj_enemybullet","path":"objects/obj_enemybullet/obj_enemybullet.yy",},},
     {"id":{"name":"obj_enemymoveshoot","path":"objects/obj_enemymoveshoot/obj_enemymoveshoot.yy",},},
-    {"id":{"name":"obj_enemybasic","path":"objects/obj_enemybasic/obj_enemybasic.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_roomtransition0_1","path":"objects/obj_roomtransition0_1/obj_roomtransition0_1.yy",},},
     {"id":{"name":"obj_roomtransition1_0","path":"objects/obj_roomtransition1_0/obj_roomtransition1_0.yy",},},
