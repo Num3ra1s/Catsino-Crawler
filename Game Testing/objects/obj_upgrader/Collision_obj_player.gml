@@ -1,7 +1,6 @@
 /// @description Randomly upgrade one aspect of gun
 
 var upgrade = irandom(3);
-upgrade = 3;
 
 if (upgrade == 0){
 	obj_player.cooldown_ind += 1;
