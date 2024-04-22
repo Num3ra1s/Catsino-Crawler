@@ -1,5 +1,5 @@
 /// @description Dash Start
-if dash_count == 3{
+if dash_count == total_dash_count{
 	alarm[4] = 60;
 }
 if can_dash == true and dash_count >= 1{

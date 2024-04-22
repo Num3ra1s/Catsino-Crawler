@@ -11,8 +11,8 @@
   "name":"obj_damagetext",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Createables",
+    "path":"folders/Objects/Createables.yy",
   },
   "parentObjectId":null,
   "persistent":false,

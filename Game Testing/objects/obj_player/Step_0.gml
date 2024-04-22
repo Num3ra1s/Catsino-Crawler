@@ -1,5 +1,5 @@
 /// @description Basic Movement
-image_angle = point_direction(x,y,mouse_x,mouse_y)
+mirror = point_direction(x,y,mouse_x,mouse_y)
 if keyboard_check(87){
 	y = y - 7
 	direction = 90
@@ -20,6 +20,6 @@ x = clamp(x,20, room_width-20);
 
 y= clamp(y,20,room_height-70);
 //kill player
-if hp<=0 {
+if currenthp<=0 {
 	game_end();	
 }

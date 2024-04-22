@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bullet",
+  "%Name":"obj_game",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_bullet",
+  "name":"obj_game",
   "overriddenProperties":[],
   "parent":{
-    "name":"Createables",
-    "path":"folders/Objects/Createables.yy",
+    "name":"Level Items",
+    "path":"folders/Objects/Level Items.yy",
   },
   "parentObjectId":null,
   "persistent":false,

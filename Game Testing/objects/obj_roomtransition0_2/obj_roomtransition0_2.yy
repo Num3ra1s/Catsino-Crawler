@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bullet",
+  "%Name":"obj_roomtransition0_2",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_bullet",
+  "name":"obj_roomtransition0_2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Createables",
-    "path":"folders/Objects/Createables.yy",
+    "name":"RoomTransitions",
+    "path":"folders/Objects/RoomTransitions.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,10 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_bullet",
-    "path":"sprites/spr_bullet/spr_bullet.yy",
+  "spriteId":null,
+  "spriteMaskId":{
+    "name":"Sprite4",
+    "path":"sprites/Sprite4/Sprite4.yy",
   },
-  "spriteMaskId":null,
   "visible":true,
 }
