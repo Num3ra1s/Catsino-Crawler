@@ -25,11 +25,13 @@
     {"name":"obj_enemybasic","order":1,"path":"objects/obj_enemybasic/obj_enemybasic.yy",},
     {"name":"obj_enemybullet","order":2,"path":"objects/obj_enemybullet/obj_enemybullet.yy",},
     {"name":"obj_roomtransition1_0","order":1,"path":"objects/obj_roomtransition1_0/obj_roomtransition1_0.yy",},
+    {"name":"obj_upgrader","order":6,"path":"objects/obj_upgrader/obj_upgrader.yy",},
     {"name":"Room0","order":1,"path":"rooms/Room0/Room0.yy",},
     {"name":"Room1","order":2,"path":"rooms/Room1/Room1.yy",},
     {"name":"spr_bullet","order":1,"path":"sprites/spr_bullet/spr_bullet.yy",},
     {"name":"Sprite4","order":4,"path":"sprites/Sprite4/Sprite4.yy",},
     {"name":"Sprite6","order":6,"path":"sprites/Sprite6/Sprite6.yy",},
+    {"name":"spr_upgrader","order":7,"path":"sprites/spr_upgrader/spr_upgrader.yy",},
     {"name":"test_sprite","order":5,"path":"sprites/test_sprite/test_sprite.yy",},
   ],
 }
