@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_upgrader",
+  "%Name":"obj_cooldown",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_upgrader",
+  "name":"obj_cooldown",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Weapon Upgrade",
+    "path":"folders/Objects/Weapon Upgrade.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_upgrader",
-    "path":"sprites/spr_upgrader/spr_upgrader.yy",
+    "name":"spr_cooldown",
+    "path":"sprites/spr_cooldown/spr_cooldown.yy",
   },
   "spriteMaskId":null,
   "visible":true,
