@@ -10,5 +10,7 @@
     {"name":"spr_dialog_louie","order":1,"path":"sprites/spr_dialog_louie/spr_dialog_louie.yy",},
     {"name":"spr_dialog_shadow","order":3,"path":"sprites/spr_dialog_shadow/spr_dialog_shadow.yy",},
     {"name":"LobbyTileSet","order":1,"path":"tilesets/LobbyTileSet/LobbyTileSet.yy",},
+    {"name":"door_locked","order":3,"path":"sprites/door_locked/door_locked.yy",},
+    {"name":"door_unlocked","order":4,"path":"sprites/door_unlocked/door_unlocked.yy",},
   ],
 }
