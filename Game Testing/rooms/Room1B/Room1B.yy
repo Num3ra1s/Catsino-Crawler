@@ -16,13 +16,13 @@
     {"name":"inst_4CC4DEED","path":"rooms/Room1B/Room1B.yy",},
     {"name":"inst_41F01F95","path":"rooms/Room1B/Room1B.yy",},
     {"name":"inst_6BF2105A","path":"rooms/Room1B/Room1B.yy",},
-    {"name":"inst_1B5562F0","path":"rooms/Room1B/Room1B.yy",},
+    {"name":"inst_7B97D3C4","path":"rooms/Room1B/Room1B.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Upgrades","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_41F01F95","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_41F01F95","objectId":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
-        {"$GMRInstance":"","%Name":"inst_1B5562F0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1B5562F0","objectId":{"name":"obj_upgrader","path":"objects/obj_upgrader/obj_upgrader.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":0.0,},
+        {"$GMRInstance":"","%Name":"inst_7B97D3C4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7B97D3C4","objectId":{"name":"obj_upgrader","path":"objects/obj_upgrader/obj_upgrader.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":32.0,},
       ],"layers":[],"name":"Upgrades","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_2","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":16,"SerialiseWidth":16,"TileCompressedData":[
           -17,1,-14,-2147483648,-2,1,-14,-2147483648,-2,1,-14,-2147483648,-2,1,-14,-2147483648,-2,1,-14,-2147483648,
