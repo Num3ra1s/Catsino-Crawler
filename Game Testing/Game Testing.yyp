@@ -84,6 +84,7 @@
     {"id":{"name":"spr_num_dice","path":"sprites/spr_num_dice/spr_num_dice.yy",},},
     {"id":{"name":"spr_spd_dice","path":"sprites/spr_spd_dice/spr_spd_dice.yy",},},
     {"id":{"name":"spr_upgrader","path":"sprites/spr_upgrader/spr_upgrader.yy",},},
+    {"id":{"name":"spr_dashes","path":"sprites/spr_dashes/spr_dashes.yy",},},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
     {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},},
     {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},},

@@ -21,5 +21,5 @@ x = clamp(x,20, room_width-20);
 y= clamp(y,20,room_height-70);
 //kill player
 if currenthp<=0 {
-	game_end();	
+	game_restart();	
 }

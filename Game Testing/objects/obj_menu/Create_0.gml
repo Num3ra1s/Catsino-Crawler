@@ -17,6 +17,7 @@ if(obj_player.sdice_ind < array_length(obj_player.sdice)){
 	array_push(upgrade_types, obj_spd_dice);
 }
 
+// add upgrades
 var rand = irandom(array_length(upgrade_types)-1);
 up_1 = instance_create_layer(304, 256, "Upgrades", upgrade_types[rand]);
 array_delete(upgrade_types, rand, 1);
