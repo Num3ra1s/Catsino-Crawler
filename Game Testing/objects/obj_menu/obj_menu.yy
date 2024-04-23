@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_dice_type",
+  "%Name":"obj_menu",
   "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_dice_type",
+  "name":"obj_menu",
   "overriddenProperties":[],
   "parent":{
-    "name":"Weapon Upgrade",
-    "path":"folders/Objects/Weapon Upgrade.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_dice_type",
-    "path":"sprites/spr_dice_type/spr_dice_type.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

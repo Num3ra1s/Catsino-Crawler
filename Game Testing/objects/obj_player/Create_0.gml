@@ -1,4 +1,5 @@
 /// @description Init variables
+
 dash_count = 3;
 currenthp=30;
 dashing = false;

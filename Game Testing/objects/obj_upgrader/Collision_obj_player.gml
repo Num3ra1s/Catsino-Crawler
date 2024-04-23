@@ -1,5 +1,9 @@
 /// @description Randomly upgrade one aspect of gun
 
+obj_menu.upgrading = true;
+instance_destroy();
+
+/*
 var upgrade = irandom(3);
 
 if (upgrade == 0){
@@ -21,3 +25,4 @@ if (upgrade == 0){
 }
 
 instance_destroy();
+/*
