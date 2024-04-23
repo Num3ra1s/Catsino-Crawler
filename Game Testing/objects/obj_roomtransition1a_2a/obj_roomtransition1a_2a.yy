@@ -31,8 +31,8 @@
   "solid":false,
   "spriteId":null,
   "spriteMaskId":{
-    "name":"Sprite4",
-    "path":"sprites/Sprite4/Sprite4.yy",
+    "name":"Player_sprite",
+    "path":"sprites/Player_sprite/Player_sprite.yy",
   },
   "visible":true,
 }
