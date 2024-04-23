@@ -23,3 +23,7 @@ y= clamp(y,20,room_height-70);
 if currenthp<=0 {
 	game_restart();	
 }
+
+if(instance_number(obj_enemies) <= 0 && !instance_exists(obj_upgrader)){
+	instance_create_layer(0, 0, "Upgrades", obj_upgrader);
+} 

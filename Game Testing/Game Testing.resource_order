@@ -23,6 +23,7 @@
     {"name":"sound_yippee","order":4,"path":"sounds/sound_yippee/sound_yippee.yy",},
     {"name":"intro_background","order":2,"path":"sprites/intro_background/intro_background.yy",},
     {"name":"LobbySprites","order":1,"path":"sprites/LobbySprites/LobbySprites.yy",},
+    {"name":"SlotsSprites","order":2,"path":"sprites/SlotsSprites/SlotsSprites.yy",},
     {"name":"spr_dashes","order":4,"path":"sprites/spr_dashes/spr_dashes.yy",},
     {"name":"spr_dialog_louie","order":1,"path":"sprites/spr_dialog_louie/spr_dialog_louie.yy",},
     {"name":"spr_dialog_shadow","order":3,"path":"sprites/spr_dialog_shadow/spr_dialog_shadow.yy",},
@@ -31,6 +32,8 @@
     {"name":"spr_miniboss","order":6,"path":"sprites/spr_miniboss/spr_miniboss.yy",},
     {"name":"spr_shockwave","order":5,"path":"sprites/spr_shockwave/spr_shockwave.yy",},
     {"name":"spr_unlocked_door","order":8,"path":"sprites/spr_unlocked_door/spr_unlocked_door.yy",},
+    {"name":"spr_shadow","order":9,"path":"sprites/spr_shadow/spr_shadow.yy",},
     {"name":"LobbyTileSet","order":1,"path":"tilesets/LobbyTileSet/LobbyTileSet.yy",},
+    {"name":"SlotsTileSet","order":2,"path":"tilesets/SlotsTileSet/SlotsTileSet.yy",},
   ],
 }
