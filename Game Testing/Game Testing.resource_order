@@ -7,5 +7,7 @@
     {"name":"Intro","order":1,"path":"rooms/Intro/Intro.yy",},
     {"name":"spr_dialog_louie","order":1,"path":"sprites/spr_dialog_louie/spr_dialog_louie.yy",},
     {"name":"intro_background","order":2,"path":"sprites/intro_background/intro_background.yy",},
+    {"name":"LobbySprites","order":1,"path":"sprites/LobbySprites/LobbySprites.yy",},
+    {"name":"LobbyTileSet","order":1,"path":"tilesets/LobbyTileSet/LobbyTileSet.yy",},
   ],
 }
