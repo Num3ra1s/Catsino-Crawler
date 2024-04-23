@@ -1,5 +1,5 @@
 /// @description Move
 // You can write your code in this editor
-room_goto(0);
+room_goto(1);
 other.x = 96;
 other.y = 512;

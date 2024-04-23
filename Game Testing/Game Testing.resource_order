@@ -1,6 +1,11 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
+    {"name":"obj_dialog_parent","order":2,"path":"objects/obj_dialog_parent/obj_dialog_parent.yy",},
+    {"name":"obj_dialog_intro","order":3,"path":"objects/obj_dialog_intro/obj_dialog_intro.yy",},
     {"name":"obj_menu","order":1,"path":"objects/obj_menu/obj_menu.yy",},
+    {"name":"Intro","order":1,"path":"rooms/Intro/Intro.yy",},
+    {"name":"spr_dialog_louie","order":1,"path":"sprites/spr_dialog_louie/spr_dialog_louie.yy",},
+    {"name":"intro_background","order":2,"path":"sprites/intro_background/intro_background.yy",},
   ],
 }
