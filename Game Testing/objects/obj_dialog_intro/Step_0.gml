@@ -7,7 +7,6 @@ if(!showing_dialog) {
 		room_goto(Room0);
 		return;
 	}
-	
 	current_dialog = dialog.pop();
 	showing_dialog = true;
 } else {
