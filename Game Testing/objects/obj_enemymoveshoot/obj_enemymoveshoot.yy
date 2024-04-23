@@ -40,8 +40,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite4",
-    "path":"sprites/Sprite4/Sprite4.yy",
+    "name":"spr_shooter",
+    "path":"sprites/spr_shooter/spr_shooter.yy",
   },
   "spriteMaskId":null,
   "visible":true,

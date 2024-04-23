@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"Doorspriteplaceholder",
-    "path":"sprites/Doorspriteplaceholder/Doorspriteplaceholder.yy",
+    "name":"spr_locked_door",
+    "path":"sprites/spr_locked_door/spr_locked_door.yy",
   },
   "spriteMaskId":null,
   "visible":true,

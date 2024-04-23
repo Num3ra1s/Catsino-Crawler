@@ -40,8 +40,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite6",
-    "path":"sprites/Sprite6/Sprite6.yy",
+    "name":"spr_walker",
+    "path":"sprites/spr_walker/spr_walker.yy",
   },
   "spriteMaskId":null,
   "visible":true,
