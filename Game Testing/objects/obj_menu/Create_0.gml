@@ -1,6 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+fontx1 = camera_get_view_x(view_camera[0]) + 304;
+fontx2 = camera_get_view_x(view_camera[0]) + 528;
+fonty =  camera_get_view_y(view_camera[0])- 196;
+
 upgrading = false;
 // check if upgrade needs to be removed from pool
 upgrade_types = [];
@@ -19,10 +23,10 @@ if(obj_player.sdice_ind < array_length(obj_player.sdice)){
 
 // add upgrades
 var rand = irandom(array_length(upgrade_types)-1);
-up_1 = instance_create_layer(304, 256, "Upgrades", upgrade_types[rand]);
+up_1 = instance_create_layer(camera_get_view_x(view_camera[0]) + 304, camera_get_view_y(view_camera[0]) + 256, "Upgrades", upgrade_types[rand]);
 array_delete(upgrade_types, rand, 1);
 rand = irandom(array_length(upgrade_types)-1);
-up_2 = instance_create_layer(528, 256, "Upgrades", upgrade_types[rand]);
+up_2 = instance_create_layer(camera_get_view_x(view_camera[0]) + 528, camera_get_view_y(view_camera[0]) + 256, "Upgrades", upgrade_types[rand]);
 array_delete(upgrade_types, rand, 1);
 
 upgrades = [up_1, up_2];
