@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.643583,
+  "duration":0.487959,
   "name":"sound_enemy_hit",
   "parent":{
     "name":"Sounds",
