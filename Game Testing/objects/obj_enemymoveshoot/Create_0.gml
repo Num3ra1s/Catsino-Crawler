@@ -1,6 +1,6 @@
 /// @description Variables
 // You can write your code in this editor
-totalhp=25;
+totalhp=15;
 movementtype=0;
 turn=true;
 iframes=false;
