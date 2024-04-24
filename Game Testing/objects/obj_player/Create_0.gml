@@ -1,5 +1,5 @@
 /// @description Init variables
-
+mirror=0
 dash_count = 3;
 currenthp=30;
 dashing = false;

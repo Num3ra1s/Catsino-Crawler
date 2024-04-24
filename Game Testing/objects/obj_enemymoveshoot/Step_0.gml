@@ -8,7 +8,9 @@ if turn == true {
 	turn = false;
 	movementtype=irandom_range(0,1);
 	if movementtype==0{
-		motion_add(point_direction(x,y,obj_player.x,obj_player.y), 10);
+		for (var i = 0;i<20;i++){
+		mp_potential_step(obj_player.x,obj_player.y, 3, false);
+		}
 		alarm[1]=20
 	}
 	if movementtype==1{

@@ -1,9 +1,9 @@
 {
   "$GMSprite":"",
   "%Name":"spr_locked_door",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":63,
-  "bbox_left":8,
+  "bbox_left":11,
   "bbox_right":31,
   "bbox_top":0,
   "collisionKind":1,

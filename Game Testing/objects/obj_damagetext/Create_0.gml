@@ -6,4 +6,4 @@ gravity_direction = 270;
 bounced = false;
 alarm[0] = 40;
 damage = 0;
-color=c_black
+color=c_white;
