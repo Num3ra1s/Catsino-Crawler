@@ -1,4 +1,7 @@
 /// @description Draw text
 
-draw_text_ext(x, y + 196, "lower weapon cooldown", 32, 196);
+
+font_x = x - camera_get_view_x(view_camera[0]);
+font_y = y + 196 - camera_get_view_y(view_camera[0]);
+draw_text_ext(font_x, font_y, "lower weapon cooldown", 32, 196);
 

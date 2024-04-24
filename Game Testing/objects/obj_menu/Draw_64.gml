@@ -12,5 +12,3 @@ if (instance_number(obj_enemies) <= 0 && upgrading){
 		upgrades[i].visible = false;
 	}
 }
-
-show_debug_message(upgrading);
