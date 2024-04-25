@@ -3,7 +3,9 @@
 if totalhp <= 0{
 	instance_destroy()
 }
-mp_potential_step(obj_player.x,obj_player.y, 3.5, false);
+if charging == false{
+mp_potential_step(obj_player.x,obj_player.y, 2, false);
+}
 x = clamp(x,20, room_width-20);
 
 y= clamp(y,20,room_height-70);

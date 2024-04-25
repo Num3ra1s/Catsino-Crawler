@@ -3,10 +3,10 @@
 if totalhp <= 0{
 	instance_destroy()
 }
-image_angle=point_direction(x,y,obj_player.x,obj_player.y)
 if turn == true {
 	turn = false;
-	movementtype=irandom_range(0,1);
+	movementtype=1;
+	currentdirection = random(360)
 	if movementtype==0{
 		for (var i = 0;i<20;i++){
 		mp_potential_step(obj_player.x,obj_player.y, 3, false);
@@ -14,10 +14,14 @@ if turn == true {
 		alarm[1]=20
 	}
 	if movementtype==1{
-		motion_add(random(360), 10);
-		alarm[1]=20;
+			motion_set(currentdirection, 3);
+			alarm[1]=20;
 	}
-	alarm[0]=irandom_range(125,175);
+	alarm[0]=150;//irandom_range(125,175);
+}
+//keep this mf from running through walls.
+if !place_free(x+lengthdir_x(6,currentdirection),y+lengthdir_y(6,currentdirection)) {
+	motion_set(currentdirection,0);
 }
 x = clamp(x,20, room_width-20);
 

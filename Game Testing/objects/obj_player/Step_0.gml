@@ -16,9 +16,23 @@ if keyboard_check(ord("D")) && place_free(x + 8, y){
 	x = x + 7
 	direction = 0
 }
+//backup code to keep player in room in case some out of bounds stuff happens
 x = clamp(x,20, room_width-20);
 
 y= clamp(y,20,room_height-70);
+//collision code for dashing
+if !place_free(x+8,y) && direction == 0{
+	motion_set(temp_direction, 0);
+}
+if !place_free(x-8,y) && direction == 180{
+	motion_set(temp_direction, 0);
+}
+if !place_free(x,y+8) && direction == 270{
+	motion_set(temp_direction, 0);
+}
+if !place_free(x,y-8) && direction == 90{
+	motion_set(temp_direction, 0);
+}
 //kill player
 if currenthp<=0 {
 	game_restart();	

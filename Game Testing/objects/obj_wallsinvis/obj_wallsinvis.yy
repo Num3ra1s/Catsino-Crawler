@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_walls",
+  "%Name":"obj_wallsinvis",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_enemybullet","path":"objects/obj_enemybullet/obj_enemybullet.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_walls",
+  "name":"obj_wallsinvis",
   "overriddenProperties":[],
   "parent":{
     "name":"Level Items",
@@ -30,10 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":true,
-  "spriteId":{
-    "name":"Sprite8",
-    "path":"sprites/Sprite8/Sprite8.yy",
+  "spriteId":null,
+  "spriteMaskId":{
+    "name":"spr_wall",
+    "path":"sprites/spr_wall/spr_wall.yy",
   },
-  "spriteMaskId":null,
   "visible":true,
 }

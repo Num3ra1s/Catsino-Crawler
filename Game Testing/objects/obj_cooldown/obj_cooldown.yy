@@ -15,7 +15,10 @@
     "name":"Weapon Upgrade",
     "path":"folders/Objects/Weapon Upgrade.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_upgrade_parent",
+    "path":"objects/obj_upgrade_parent/obj_upgrade_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
