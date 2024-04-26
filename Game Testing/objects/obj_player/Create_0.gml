@@ -34,3 +34,5 @@ enum WEAPON_TYPES{
 window_set_size(956,956);
 
 audio_play_sound(sound_music, 10, true);
+
+text_col = c_black;

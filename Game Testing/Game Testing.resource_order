@@ -9,6 +9,8 @@
     {"name":"Bside","order":3,"path":"folders/Rooms/Bside.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"h1_font","order":1,"path":"fonts/h1_font/h1_font.yy",},
+    {"name":"h2_font","order":2,"path":"fonts/h2_font/h2_font.yy",},
     {"name":"obj_dialog_intro","order":8,"path":"objects/obj_dialog_intro/obj_dialog_intro.yy",},
     {"name":"obj_dialog_parent","order":7,"path":"objects/obj_dialog_parent/obj_dialog_parent.yy",},
     {"name":"obj_door","order":1,"path":"objects/obj_door/obj_door.yy",},

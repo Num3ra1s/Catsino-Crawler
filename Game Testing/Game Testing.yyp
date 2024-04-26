@@ -44,6 +44,8 @@
   "name":"Game Testing",
   "resources":[
     {"id":{"name":"dialog_font","path":"fonts/dialog_font/dialog_font.yy",},},
+    {"id":{"name":"h1_font","path":"fonts/h1_font/h1_font.yy",},},
+    {"id":{"name":"h2_font","path":"fonts/h2_font/h2_font.yy",},},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
     {"id":{"name":"obj_cooldown","path":"objects/obj_cooldown/obj_cooldown.yy",},},
     {"id":{"name":"obj_damagetext","path":"objects/obj_damagetext/obj_damagetext.yy",},},
@@ -53,8 +55,8 @@
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},},
     {"id":{"name":"obj_enemies","path":"objects/obj_enemies/obj_enemies.yy",},},
     {"id":{"name":"obj_enemybasic","path":"objects/obj_enemybasic/obj_enemybasic.yy",},},
-    {"id":{"name":"obj_enemycharger","path":"objects/obj_enemycharger/obj_enemycharger.yy",},},
     {"id":{"name":"obj_enemybullet","path":"objects/obj_enemybullet/obj_enemybullet.yy",},},
+    {"id":{"name":"obj_enemycharger","path":"objects/obj_enemycharger/obj_enemycharger.yy",},},
     {"id":{"name":"obj_enemyshooter","path":"objects/obj_enemyshooter/obj_enemyshooter.yy",},},
     {"id":{"name":"obj_enemysideAfinal","path":"objects/obj_enemysideAfinal/obj_enemysideAfinal.yy",},},
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},},

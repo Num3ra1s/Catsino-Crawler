@@ -3,9 +3,10 @@
 // Draw the Healthbar, this command is stupid and dumb
 draw_healthbar(972,64,1012,256,(currenthp/30) * 100,c_black,c_red,c_green,3,true,true);
 // Draw Text (Bug where HP text follows the damage text's bouncing effect)
-draw_set_halign(fa_left);
-draw_set_colour(c_yellow);
-draw_text(975, 16, "HP");
+draw_set_halign(fa_center);
+draw_set_colour(c_black);
+draw_set_font(h2_font);
+draw_text(990, 16, "HP");
 
 // Draw dashes
 for(var i = 0; i < dash_count; i++){
