@@ -1,7 +1,7 @@
 /// @description Init variables
 mirror=0
 dash_count = 3;
-currenthp=30;
+currenthp=20;
 dashing = false;
 can_dash = true;
 can_attack = true;
@@ -15,10 +15,10 @@ dice_type = 6;
 spd_dice = 15;
 num_dice = 1;
 
-cooldown = [30, 15, 10, 5, 3, 2];
+cooldown = [30, 25, 20, 15, 10, 3];
 cooldown_ind = 0;
 
-dice = [6, 12, 18, 24, 30];
+dice = [6, 8, 10, 12, 20];
 dice_ind = 0;
 
 sdice = [15, 30, 45, 60, 75];

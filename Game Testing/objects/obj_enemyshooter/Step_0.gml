@@ -5,14 +5,10 @@ if totalhp <= 0{
 }
 if turn == true {
 	turn = false;
+	//movement type varriable is not needed, leftover from old code
+	//Im too lazy to remove it, but it can be ignored
 	movementtype=1;
 	currentdirection = random(360)
-	if movementtype==0{
-		for (var i = 0;i<20;i++){
-		mp_potential_step(obj_player.x,obj_player.y, 3, false);
-		}
-		alarm[1]=20
-	}
 	if movementtype==1{
 			motion_set(currentdirection, 3);
 			alarm[1]=20;

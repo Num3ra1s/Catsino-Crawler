@@ -2,6 +2,9 @@
 // You can write your code in this editor
 if iframes == false && other.dashing == false{
 	other.currenthp = other.currenthp - 1;
+	if charging == true{
+		other.currenthp = other.currenthp - 2;
+	}
 	iframes = true;
 	alarm[2] = 30;
 	//stop this thing from moving for a sec, so the player can run

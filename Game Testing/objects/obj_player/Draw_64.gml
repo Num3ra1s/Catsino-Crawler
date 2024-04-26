@@ -1,7 +1,7 @@
 /// @description Draw Player UI
 
 // Draw the Healthbar, this command is stupid and dumb
-draw_healthbar(972,64,1012,256,(currenthp/30) * 100,c_black,c_red,c_green,3,true,true);
+draw_healthbar(972,64,1012,256,(currenthp/20) * 100,c_black,c_red,c_green,3,true,true);
 // Draw Text (Bug where HP text follows the damage text's bouncing effect)
 draw_set_halign(fa_center);
 draw_set_colour(c_black);
