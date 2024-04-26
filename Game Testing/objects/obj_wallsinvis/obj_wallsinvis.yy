@@ -30,10 +30,13 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":true,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_wall",
+    "path":"sprites/spr_wall/spr_wall.yy",
+  },
   "spriteMaskId":{
     "name":"spr_wall",
     "path":"sprites/spr_wall/spr_wall.yy",
   },
-  "visible":true,
+  "visible":false,
 }
