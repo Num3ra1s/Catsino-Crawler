@@ -5,4 +5,5 @@ if iframes == false && other.dashing == false{
 	iframes = true;
 	alarm[2] = 60;
 	audio_play_sound(sound_player_hit, 11, false);
+	other.alarm[5]=1;
 }

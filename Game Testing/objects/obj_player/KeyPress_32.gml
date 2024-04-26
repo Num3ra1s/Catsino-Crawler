@@ -8,6 +8,6 @@ if can_dash == true and dash_count >= 1{
 	dashing=true;
 	audio_play_sound(sound_dash, 11, false);
 	motion_add(direction, 20);
-	alarm[0]=5;
-	alarm[1]=7;
+	alarm[0]=8;
+	alarm[1]=12;
 }

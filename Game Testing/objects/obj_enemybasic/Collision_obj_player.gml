@@ -4,6 +4,7 @@ if iframes == false && other.dashing == false{
 	other.currenthp = other.currenthp - 1;
 	iframes = true;
 	alarm[2] = 30;
+	other.alarm[5]=1;
 	//stop this thing from moving for a sec, so the player can run
 	//also shit gets fucky if you stick to the player
 	freeze = true
