@@ -35,3 +35,5 @@ for(var i = 0; i < array_length(upgrades); i++){
 	upgrades[i].image_xscale = 3;
 	upgrades[i].image_yscale = 3;
 }
+
+text_col = c_white;

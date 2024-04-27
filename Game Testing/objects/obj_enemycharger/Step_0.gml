@@ -13,4 +13,5 @@ if freeze==true or !place_free(x+lengthdir_x(12,direction),y+lengthdir_y(12,dire
 }
 x = clamp(x,20, room_width-20);
 
-y= clamp(y,20,room_height-70);
+	y= clamp(y,20,room_height-70);
+}

@@ -8,7 +8,7 @@ if (instance_number(obj_enemies) <= 0 && upgrading){
 		upgrades[i].visible = true;
 	}
 	draw_set_halign(fa_center);
-	draw_set_color(obj_player.text_col);
+	draw_set_color(text_col);
 	draw_set_font(h1_font);
 	draw_text(512, 128, "CHOOSE AN UPGRADE");
 } else {
