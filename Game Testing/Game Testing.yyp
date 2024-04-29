@@ -57,6 +57,7 @@
     {"id":{"name":"obj_enemybasic","path":"objects/obj_enemybasic/obj_enemybasic.yy",},},
     {"id":{"name":"obj_enemybullet","path":"objects/obj_enemybullet/obj_enemybullet.yy",},},
     {"id":{"name":"obj_enemycharger","path":"objects/obj_enemycharger/obj_enemycharger.yy",},},
+    {"id":{"name":"obj_enemyshockwave","path":"objects/obj_enemyshockwave/obj_enemyshockwave.yy",},},
     {"id":{"name":"obj_enemyshooter","path":"objects/obj_enemyshooter/obj_enemyshooter.yy",},},
     {"id":{"name":"obj_enemysideAfinal","path":"objects/obj_enemysideAfinal/obj_enemysideAfinal.yy",},},
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},},

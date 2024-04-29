@@ -16,6 +16,7 @@
     {"name":"obj_door","order":1,"path":"objects/obj_door/obj_door.yy",},
     {"name":"obj_enemies","order":1,"path":"objects/obj_enemies/obj_enemies.yy",},
     {"name":"obj_enemycharger","order":3,"path":"objects/obj_enemycharger/obj_enemycharger.yy",},
+    {"name":"obj_enemyshockwave","order":4,"path":"objects/obj_enemyshockwave/obj_enemyshockwave.yy",},
     {"name":"obj_enemysideAfinal","order":2,"path":"objects/obj_enemysideAfinal/obj_enemysideAfinal.yy",},
     {"name":"obj_menu","order":6,"path":"objects/obj_menu/obj_menu.yy",},
     {"name":"obj_roomtransition0_1a","order":1,"path":"objects/obj_roomtransition0_1a/obj_roomtransition0_1a.yy",},
