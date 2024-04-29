@@ -3,12 +3,16 @@
   "%Name":"SlotsTileSet",
   "autoTileSets":[],
   "macroPageTiles":{
-    "SerialiseHeight":0,
-    "SerialiseWidth":0,
-    "TileSerialiseData":[],
+    "SerialiseHeight":10,
+    "SerialiseWidth":6,
+    "TileCompressedData":[
+      3,0,22,23,-4,0,2,31,32,-10,0,11,24,1073741848,0,2,3,0,1879048216,805306392,0,11,12,-7,0,11,20,21,0,4,
+      5,0,29,30,0,13,14,-12,0,
+    ],
+    "TileDataFormat":1,
   },
   "name":"SlotsTileSet",
-  "out_columns":5,
+  "out_columns":6,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -28,7 +32,7 @@
   },
   "tileAnimation":{
     "FrameData":[
-      0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,
+      0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,
     ],
     "SerialiseFrameCount":1,
   },
@@ -40,5 +44,5 @@
   "tileWidth":64,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":28,
+  "tile_count":36,
 }
