@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"SlotsSprites",
   "bboxMode":0,
-  "bbox_bottom":128,
+  "bbox_bottom":257,
   "bbox_left":0,
-  "bbox_right":190,
+  "bbox_right":381,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":132,
+  "height":264,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"f568a2ff-af91-4d86-b4cc-05acc308b9a1","blendMode":0,"displayName":"default","isLocked":false,"name":"f568a2ff-af91-4d86-b4cc-05acc308b9a1","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":224,
+  "width":448,
 }
