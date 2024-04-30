@@ -1,8 +1,8 @@
 /// @description Variables
 // You can write your code in this editor
-totalhp=25;
+totalhp=75;
 iframes=false;
-chargeready=false;
+chargeready=false; //il be honest I dont know if this or the charger use this varriable 
 charging = false;
 freeze = false;
 alarm[0]=120;
