@@ -34,12 +34,15 @@ if(!paused){
 	if !place_free(x,y-12) && temp_direction == 90{
 		motion_set(temp_direction, 0);
 	}
-	//kill player
-	if currenthp<=0 {
-		game_restart();	
-	}
 
 	if(instance_number(obj_enemies) <= 0 && !instance_exists(obj_upgrader)){
 		instance_create_layer(0, 0, "Upgrades", obj_upgrader);
 	} 
+	//kill player
+	if currenthp<=0 {
+		//game_restart();
+		room_persistent = false;
+		room_restart();
+		currenthp = 10;
+	}
 }
