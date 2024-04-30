@@ -34,12 +34,23 @@ if(!paused){
 	if !place_free(x,y-12) && temp_direction == 90{
 		motion_set(temp_direction, 0);
 	}
-	//kill player
-	if currenthp<=0 {
-		game_restart();	
-	}
 
 	if(instance_number(obj_enemies) <= 0 && !instance_exists(obj_upgrader)){
 		instance_create_layer(0, 0, "Upgrades", obj_upgrader);
 	} 
+	//kill player
+	if currenthp<=0 {
+		room_goto(Room0);
+		x = 512;
+		y = 512;
+		cooldown_ind = 0;
+		weapon_cooldown = cooldown[cooldown_ind];
+		dice_ind = 0;
+		dice_type = dice[dice_ind];
+		sdice_ind = 0;
+		spd_dice = sdice[sdice_ind];
+		ndice_ind = 0;
+		num_dice = ndice[ndice_ind];
+		currenthp = 10;
+	}
 }
