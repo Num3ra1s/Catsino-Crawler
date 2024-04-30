@@ -4,7 +4,18 @@ if(!obj_player.paused){
 	if totalhp <= 0{
 		instance_destroy()
 	}
-	image_angle=point_direction(x,y,obj_player.x,obj_player.y);
+	//image_angle=point_direction(x,y,obj_player.x,obj_player.y);
+	if canshoot == true{
+		canshoot=false;
+		alarm[0]=12
+	}
+	//let player dash through enemy 
+	if obj_player.dashing == true{
+		solid = false	
+	}
+	else{
+		solid = true;	
+	}
 	mp_potential_step(obj_player.x,obj_player.y, 4, false);
 	x = clamp(x,20, room_width-20);
 

@@ -1,21 +1,23 @@
 /// @description Basic Movement
 if(!paused){
-	mirror = point_direction(x,y,mouse_x,mouse_y)
-	if keyboard_check(ord("W")) && place_free(x,y-12){
-		y = y - 7
-		direction = 90
-	}
-	if keyboard_check(ord("S")) && place_free(x,y+12){
-		y = y + 7
-		direction = 270
-	}
-	if keyboard_check(ord("A")) && place_free(x - 12, y){
-		x = x - 7
-		direction = 180
-	}
-	if keyboard_check(ord("D")) && place_free(x + 12, y){
-		x = x + 7
-		direction = 0
+	if (!dashing==true){
+		mirror = point_direction(x,y,mouse_x,mouse_y)
+		if keyboard_check(ord("W")) && place_free(x,y-12){
+			y = y - 7
+			direction = 90
+		}
+		if keyboard_check(ord("S")) && place_free(x,y+12){
+			y = y + 7
+			direction = 270
+		}
+		if keyboard_check(ord("A")) && place_free(x - 12, y){
+			x = x - 7
+			direction = 180
+		}
+		if keyboard_check(ord("D")) && place_free(x + 12, y){
+			x = x + 7
+			direction = 0
+		}
 	}
 	//backup code to keep player in room in case some out of bounds stuff happens
 	x = clamp(x,20, room_width-20);
@@ -51,6 +53,6 @@ if(!paused){
 		spd_dice = sdice[sdice_ind];
 		ndice_ind = 0;
 		num_dice = ndice[ndice_ind];
-		currenthp = 10;
+		currenthp = 20;
 	}
 }

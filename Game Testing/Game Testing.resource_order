@@ -34,6 +34,7 @@
     {"name":"obj_upgrader","order":1,"path":"objects/obj_upgrader/obj_upgrader.yy",},
     {"name":"Intro","order":1,"path":"rooms/Intro/Intro.yy",},
     {"name":"Room2A","order":1,"path":"rooms/Room2A/Room2A.yy",},
+    {"name":"Room2B","order":1,"path":"rooms/Room2B/Room2B.yy",},
     {"name":"Room3A","order":2,"path":"rooms/Room3A/Room3A.yy",},
     {"name":"sound_enemy_hit","order":1,"path":"sounds/sound_enemy_hit/sound_enemy_hit.yy",},
     {"name":"sound_music","order":3,"path":"sounds/sound_music/sound_music.yy",},
