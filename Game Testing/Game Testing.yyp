@@ -65,6 +65,7 @@
     {"id":{"name":"obj_num_dice","path":"objects/obj_num_dice/obj_num_dice.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_roomtransition0_1a","path":"objects/obj_roomtransition0_1a/obj_roomtransition0_1a.yy",},},
+    {"id":{"name":"obj_roomtransition0","path":"objects/obj_roomtransition0/obj_roomtransition0.yy",},},
     {"id":{"name":"obj_roomtransition0_1b","path":"objects/obj_roomtransition0_1b/obj_roomtransition0_1b.yy",},},
     {"id":{"name":"obj_roomtransition1a_0","path":"objects/obj_roomtransition1a_0/obj_roomtransition1a_0.yy",},},
     {"id":{"name":"obj_roomtransition1a_2a","path":"objects/obj_roomtransition1a_2a/obj_roomtransition1a_2a.yy",},},
