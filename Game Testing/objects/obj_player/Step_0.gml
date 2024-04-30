@@ -40,14 +40,6 @@ if(!paused){
 	} 
 	//kill player
 	if currenthp<=0 {
-		//game_restart();
-		/*if current_side = 1 {
-			for (var i = 0; i < array_length(rooms_a); i++) {
-				room_set_persistent(rooms_a[i], false);
-			}
-		}*/
-		//room_set_persistent(Room0, false);
-		//room_goto(Room0);
 		room_goto(Room0);
 		x = 512;
 		y = 512;
