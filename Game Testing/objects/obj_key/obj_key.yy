@@ -1,17 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_roomtransition0",
+  "%Name":"obj_key",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_roomtransition0",
+  "name":"obj_key",
   "overriddenProperties":[],
   "parent":{
-    "name":"RoomTransitions",
-    "path":"folders/Objects/RoomTransitions.yy",
+    "name":"Level Items",
+    "path":"folders/Objects/Level Items.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_enemies",
+    "path":"objects/obj_enemies/obj_enemies.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -29,10 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
-  "spriteMaskId":{
-    "name":"spr_shooter",
-    "path":"sprites/spr_shooter/spr_shooter.yy",
+  "spriteId":{
+    "name":"spr_key",
+    "path":"sprites/spr_key/spr_key.yy",
   },
+  "spriteMaskId":null,
   "visible":true,
 }

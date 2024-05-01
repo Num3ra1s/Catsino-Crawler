@@ -2,6 +2,7 @@
 // You can write your code in this editor
 if(!obj_player.paused){
 	if totalhp <= 0{
+		instance_create_layer(x, y, "Instances", obj_key);
 		instance_destroy()
 	}
 	//image_angle=point_direction(x,y,obj_player.x,obj_player.y);

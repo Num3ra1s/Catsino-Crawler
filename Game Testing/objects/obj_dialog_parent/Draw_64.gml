@@ -10,6 +10,7 @@ if(showing_dialog) {
 	var padding = 16;
 	
 	draw_set_font(dialog_font);
+	draw_set_halign(fa_left);
 	height = string_height_ext(current_dialog.message, 32, display_get_gui_width() - 192);
 	
 	if(sprite_get_height(current_dialog.sprite) > height) {
