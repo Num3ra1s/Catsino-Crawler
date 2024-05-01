@@ -20,7 +20,7 @@ if(!paused){
 		}
 	}
 	//backup code to keep player in room in case some out of bounds stuff happens
-	x = clamp(x,20, room_width-20);
+	x= clamp(x,20, room_width-20);
 
 	y= clamp(y,20,room_height-70);
 	//collision code for dashing

@@ -15,8 +15,7 @@ if other.dashing == false{
 		alarm[3]=40;
 		audio_play_sound(sound_player_hit, 11, false);
 	}
-	with (other){
-		var pdir = point_direction(other.x, other.y, x, y);
-		move_outside_solid(pdir, -1);	
-	}
+	//with (other){
+	//	move_outside_solid(-temp_direction, -1);	
+	//}
 }

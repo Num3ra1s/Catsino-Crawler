@@ -37,7 +37,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
     "name":"spr_walker",
     "path":"sprites/spr_walker/spr_walker.yy",

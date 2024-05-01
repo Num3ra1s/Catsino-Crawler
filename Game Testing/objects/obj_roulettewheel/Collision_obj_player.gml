@@ -1,6 +1,8 @@
 /// @description You spin me right round
 // You can write your code in this editor
-with(other){
-	motion_set(obj_roulettewheel.direction+90,3);
+if ready = true{
+	other.image_angle=image_angle
+	other.x=x;
+	other.y=y;
 }
-alarm[0]=5;
+alarm[0]=60;
