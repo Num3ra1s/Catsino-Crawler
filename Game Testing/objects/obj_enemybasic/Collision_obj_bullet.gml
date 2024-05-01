@@ -12,8 +12,11 @@ if other.damage==1{
 }
 totalhp = totalhp - other.damage;
 
-var rand = irandom_range(obj_player.echance[obj_player.echance_ind], 100);
-if rand == 100 {
+var rand = irandom_range(1, obj_player.explosion_chance);
+if obj_player.explosion_chance == 0 {
+	rand = 0;
+}
+if rand == 1 {
 	instance_create_layer(x, y, "Bullets_Layer", obj_explosion);
 }
 
