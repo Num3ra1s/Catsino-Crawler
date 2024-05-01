@@ -53,6 +53,7 @@ if(!paused){
 		spd_dice = sdice[sdice_ind];
 		ndice_ind = 0;
 		num_dice = ndice[ndice_ind];
+		echance_ind = 0;
 		currenthp = 20;
 	}
 }

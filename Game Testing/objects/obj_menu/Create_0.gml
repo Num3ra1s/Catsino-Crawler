@@ -17,9 +17,13 @@ if(obj_player.dice_ind < array_length(obj_player.dice)){
 if(obj_player.ndice_ind < array_length(obj_player.ndice)){
 	array_push(upgrade_types, obj_num_dice);
 }
-if(obj_player.sdice_ind < array_length(obj_player.sdice)){
+/*if(obj_player.sdice_ind < array_length(obj_player.sdice)){
 	array_push(upgrade_types, obj_spd_dice);
+}*/
+if(obj_player.echance_ind < array_length(obj_player.echance)){
+	array_push(upgrade_types, obj_explosion_chance);
 }
+
 
 // add upgrades
 var rand = irandom(array_length(upgrade_types)-1);
