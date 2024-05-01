@@ -31,6 +31,11 @@ ndice_ind = 0;
 echance = [0, 12, 10, 8, 6, 4]
 echance_ind = 0;
 
+cooldown_first = false;
+dice_first = false;
+num_dice_first = false;
+explosion_chance_first = false;
+
 enum WEAPON_TYPES{
 	GUN,
 	SWORD

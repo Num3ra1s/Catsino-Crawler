@@ -10,8 +10,8 @@
   "name":"obj_dialog_multiple_deaths",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Dialog",
+    "path":"folders/Objects/Dialog.yy",
   },
   "parentObjectId":{
     "name":"obj_dialog_parent",
