@@ -5,4 +5,4 @@ iframes=false;
 chargeready=false; //il be honest I dont know if this or the charger use this varriable 
 charging = false;
 freeze = false;
-alarm[0]=120;
+alarm[0]=irandom_range(100,140);

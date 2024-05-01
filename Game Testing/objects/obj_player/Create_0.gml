@@ -1,5 +1,6 @@
 /// @description Init variables
-mirror=0
+mirror=0;
+launched=false;
 dash_count = 3;
 currenthp=2;
 dashing = false;
@@ -11,7 +12,7 @@ weapon = WEAPON_TYPES.GUN;
 
 weapon_cooldown = 30;
 
-dice_type = 100;
+dice_type = 6;
 spd_dice = 15;
 num_dice = 1;
 explosion_chance = 0;
@@ -19,7 +20,7 @@ explosion_chance = 0;
 cooldown = [30, 25, 20, 15, 10, 3];
 cooldown_ind = 0;
 
-dice = [100, 8, 10, 12, 20];
+dice = [6, 8, 10, 12, 20];
 dice_ind = 0;
 
 sdice = [15, 30, 45, 60, 75];

@@ -1,8 +1,8 @@
 {
   "FolderOrderSettings":[
     {"name":"Createables","order":2,"path":"folders/Objects/Createables.yy",},
-    {"name":"Enemies","order":3,"path":"folders/Objects/Enemies.yy",},
     {"name":"Dialog","order":13,"path":"folders/Objects/Dialog.yy",},
+    {"name":"Enemies","order":3,"path":"folders/Objects/Enemies.yy",},
     {"name":"Level Items","order":4,"path":"folders/Objects/Level Items.yy",},
     {"name":"RoomTransitions","order":5,"path":"folders/Objects/RoomTransitions.yy",},
     {"name":"Weapon Upgrade","order":9,"path":"folders/Objects/Weapon Upgrade.yy",},

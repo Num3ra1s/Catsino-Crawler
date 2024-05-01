@@ -1,6 +1,6 @@
 /// @description Use weapon
 
-if (weapon == WEAPON_TYPES.GUN){
+if (weapon == WEAPON_TYPES.GUN && !launched){
 	if (can_attack == true){
 		can_attack = false;
 		var prev_x = x;

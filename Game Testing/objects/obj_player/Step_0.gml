@@ -1,6 +1,6 @@
 /// @description Basic Movement
 if(!paused){
-	if (!dashing==true){
+	if (!dashing==true && !launched==true){
 		mirror = point_direction(x,y,mouse_x,mouse_y)
 		if keyboard_check(ord("W")) && place_free(x,y-12){
 			y = y - 7
@@ -26,17 +26,24 @@ if(!paused){
 	//collision code for dashing
 	if !place_free(x+12,y) && temp_direction == 0{
 		motion_set(temp_direction, 0);
+		launched=false;
 	}
 	if !place_free(x-12,y) && temp_direction == 180{
 		motion_set(temp_direction, 0);
+		launched=false;
 	}
 	if !place_free(x,y+12) && temp_direction == 270{
 		motion_set(temp_direction, 0);
+		launched=false;
 	}
 	if !place_free(x,y-12) && temp_direction == 90{
 		motion_set(temp_direction, 0);
+		launched=false;
 	}
 
+	if !launched{
+		image_angle=0;	
+	}
 	if(instance_number(obj_enemies) <= 0 && !instance_exists(obj_upgrader)){
 		instance_create_layer(0, 0, "Upgrades", obj_upgrader);
 	} 

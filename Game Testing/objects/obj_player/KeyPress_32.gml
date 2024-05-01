@@ -1,6 +1,6 @@
 /// @description Dash Start
 
-if !paused {
+if !paused && !launched {
 	if dash_count == 3{
 	alarm[4] = 60;
 	}
