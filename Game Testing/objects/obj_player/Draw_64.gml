@@ -12,3 +12,17 @@ draw_text(990, 16, "HP");
 for(var i = 0; i < dash_count; i++){
 	draw_sprite(spr_dashes, -1, 960, 256 + (i*48));
 }
+
+// Draw upgrades
+draw_set_font(h3_font);
+draw_sprite_ext(spr_cooldown_icon, -1, 968, 588, 0.75, 0.75, 0, c_white, 1);
+draw_text(992, 632, "x1");
+
+draw_sprite_ext(spr_dice_type_icon, -1, 968, 668, 0.75, 0.75, 0, c_white, 1);
+draw_text(992, 712, obj_player.dice_type);
+
+draw_sprite_ext(spr_explosion_chance_icon, -1, 968, 748, 0.75, 0.75, 0, c_white, 1);
+draw_text(992, 792, "10%");
+
+draw_sprite_ext(spr_num_dice_icon, -1, 968, 828, 0.75, 0.75, 0, c_white, 1);
+draw_text(992, 872, obj_player.num_dice);
