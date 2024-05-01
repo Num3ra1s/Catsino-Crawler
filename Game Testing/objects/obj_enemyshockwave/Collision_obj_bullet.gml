@@ -11,4 +11,10 @@ if other.damage==1{
 	_newinstance.color = c_red
 }
 totalhp = totalhp - other.damage;
+
+var rand = irandom_range(obj_player.echance[obj_player.echance_ind], 100);
+if rand == 100 {
+	instance_create_layer(x, y, "Bullets_Layer", obj_explosion);
+}
+
 instance_destroy(other)
