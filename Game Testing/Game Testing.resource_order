@@ -55,6 +55,7 @@
     {"name":"SlotsSprites","order":2,"path":"sprites/SlotsSprites/SlotsSprites.yy",},
     {"name":"spr_dashes","order":4,"path":"sprites/spr_dashes/spr_dashes.yy",},
     {"name":"spr_dialog_louie","order":1,"path":"sprites/spr_dialog_louie/spr_dialog_louie.yy",},
+    {"name":"spr_dialog_blank","order":14,"path":"sprites/spr_dialog_blank/spr_dialog_blank.yy",},
     {"name":"spr_dialog_shadow","order":3,"path":"sprites/spr_dialog_shadow/spr_dialog_shadow.yy",},
     {"name":"spr_explosion_chance","order":1,"path":"sprites/spr_explosion_chance/spr_explosion_chance.yy",},
     {"name":"spr_explosion","order":12,"path":"sprites/spr_explosion/spr_explosion.yy",},

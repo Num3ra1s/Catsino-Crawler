@@ -13,3 +13,4 @@ dialog.add(spr_dialog_shadow, "\"You want your lives back, nya? I can help you s
 dialog.add(spr_dialog_louie, "My heart spun up like a slot machine. \"A smash and grab job, huh? Now? It\'s empty, but the Doghouse robots arm their weapons at night. I ain\'t exactly subtle, and Fortuna here doesn\'t have the punch to get past them to grab the three keys I\'d need to unlock the elevator.\"");
 dialog.add(spr_dialog_shadow, "\"Oh, I can help you with that!~\" It plucked Fortuna from my cold paws and blew a breath of smoke over it. When I blinked away the tears, the chamber was gone, replaced by a whirling twenty-sided die. Like the ones nerds use.");
 dialog.add(spr_dialog_shadow, "The shadow creature locked eyes with me. They matched the die. \"I don\'t need you to be subtle! I need you to WREAK HAVOC.\"");
+dialog.add(spr_dialog_blank, "WASD to MOVE\nCLICK to SHOOT\nSPACE to DASH");

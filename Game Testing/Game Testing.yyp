@@ -112,6 +112,7 @@
     {"id":{"name":"spr_cooldown","path":"sprites/spr_cooldown/spr_cooldown.yy",},},
     {"id":{"name":"spr_dashes","path":"sprites/spr_dashes/spr_dashes.yy",},},
     {"id":{"name":"spr_dialog_louie","path":"sprites/spr_dialog_louie/spr_dialog_louie.yy",},},
+    {"id":{"name":"spr_dialog_blank","path":"sprites/spr_dialog_blank/spr_dialog_blank.yy",},},
     {"id":{"name":"spr_dialog_shadow","path":"sprites/spr_dialog_shadow/spr_dialog_shadow.yy",},},
     {"id":{"name":"spr_dice_type","path":"sprites/spr_dice_type/spr_dice_type.yy",},},
     {"id":{"name":"spr_enemybullet","path":"sprites/spr_enemybullet/spr_enemybullet.yy",},},
