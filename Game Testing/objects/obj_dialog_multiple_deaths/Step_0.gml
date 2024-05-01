@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if obj_player.level == 1 {
+if obj_player.deaths > 1 {
 	if(!showing_dialog) {
 		if(dialog.count() <= 0) {
 			obj_player.paused = false;

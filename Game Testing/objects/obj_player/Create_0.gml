@@ -1,7 +1,7 @@
 /// @description Init variables
 mirror=0
 dash_count = 3;
-currenthp=20;
+currenthp=2;
 dashing = false;
 can_dash = true;
 can_attack = true;
@@ -46,4 +46,4 @@ level = 0;
 rooms_a = [Room1A, Room2A, Room3A];
 rooms_b = [Room1B]
 
-room_goto(Room3A);
+deaths = 0;

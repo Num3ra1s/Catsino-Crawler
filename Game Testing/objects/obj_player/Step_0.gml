@@ -43,6 +43,7 @@ if(!paused){
 	//kill player
 	if currenthp<=0 {
 		room_goto(Room0);
+		deaths = deaths + 1;
 		x = 512;
 		y = 512;
 		cooldown_ind = 0;
