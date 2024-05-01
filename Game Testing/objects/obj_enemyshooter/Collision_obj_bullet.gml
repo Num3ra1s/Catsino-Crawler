@@ -11,7 +11,8 @@ if other.damage==1{
 	_newinstance.color = c_red
 }
 totalhp = totalhp - other.damage;
-
+image_blend=c_red;
+alarm[11]=5;    
 var rand = irandom_range(1, obj_player.echance[obj_player.echance_ind]);
 if obj_player.explosion_chance == 0 {
 	rand = 0;
