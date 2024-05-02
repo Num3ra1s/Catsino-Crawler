@@ -141,6 +141,7 @@
     {"id":{"name":"spr_levelbullet","path":"sprites/spr_levelbullet/spr_levelbullet.yy",},},
     {"id":{"name":"spr_levelshooter","path":"sprites/spr_levelshooter/spr_levelshooter.yy",},},
     {"id":{"name":"spr_locked_door","path":"sprites/spr_locked_door/spr_locked_door.yy",},},
+    {"id":{"name":"spr_miniboss3","path":"sprites/spr_miniboss3/spr_miniboss3.yy",},},
     {"id":{"name":"spr_miniboss1","path":"sprites/spr_miniboss1/spr_miniboss1.yy",},},
     {"id":{"name":"spr_num_dice_icon","path":"sprites/spr_num_dice_icon/spr_num_dice_icon.yy",},},
     {"id":{"name":"spr_num_dice","path":"sprites/spr_num_dice/spr_num_dice.yy",},},
