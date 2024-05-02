@@ -2,7 +2,8 @@
 mirror=0;
 launched=false;
 dash_count = 3;
-currenthp=40;
+currenthp=80;
+totalhp=80;
 dashing = false;
 can_dash = true;
 can_attack = true;

@@ -52,7 +52,7 @@ if(!paused){
 		if boss {
 			x = 512;
 			y = 192;
-			currenthp = 20;
+			currenthp = totalhp;
 			obj_enemydogfather.totalhp = 600;
 			obj_enemydogfather.x = 512;
 			obj_enemydogfather.y = 512;
@@ -70,7 +70,7 @@ if(!paused){
 			ndice_ind = 0;
 			num_dice = ndice[ndice_ind];
 			echance_ind = 0;
-			currenthp = 20;
+			currenthp = totalhp;
 		}
 	}
 }
