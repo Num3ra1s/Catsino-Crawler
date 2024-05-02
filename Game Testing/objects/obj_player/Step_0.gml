@@ -49,19 +49,28 @@ if(!paused){
 	} 
 	//kill player
 	if currenthp<=0 {
-		room_goto(Room0);
-		deaths = deaths + 1;
-		x = 512;
-		y = 512;
-		cooldown_ind = 0;
-		weapon_cooldown = cooldown[cooldown_ind];
-		dice_ind = 0;
-		dice_type = dice[dice_ind];
-		sdice_ind = 0;
-		spd_dice = sdice[sdice_ind];
-		ndice_ind = 0;
-		num_dice = ndice[ndice_ind];
-		echance_ind = 0;
-		currenthp = 20;
+		if boss {
+			x = 512;
+			y = 192;
+			currenthp = 20;
+			obj_enemydogfather.totalhp = 600;
+			obj_enemydogfather.x = 512;
+			obj_enemydogfather.y = 512;
+		} else  {
+			room_goto(Room0);
+			deaths = deaths + 1;
+			x = 512;
+			y = 512;
+			cooldown_ind = 0;
+			weapon_cooldown = cooldown[cooldown_ind];
+			dice_ind = 0;
+			dice_type = dice[dice_ind];
+			sdice_ind = 0;
+			spd_dice = sdice[sdice_ind];
+			ndice_ind = 0;
+			num_dice = ndice[ndice_ind];
+			echance_ind = 0;
+			currenthp = 20;
+		}
 	}
 }
