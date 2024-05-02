@@ -6,3 +6,4 @@ chargeready=false; //il be honest I dont know if this or the charger use this va
 charging = false;
 freeze = false;
 alarm[0]=irandom_range(100,140);
+exploded=false;

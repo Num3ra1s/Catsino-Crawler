@@ -5,3 +5,4 @@ movementtype=0;
 turn=true;
 iframes=false;
 currentdirection=0;
+exploded=false;

@@ -1,20 +1,19 @@
-/// @description Melee Player
+/// @description Insert description here
 // You can write your code in this editor
-if other.dashing == false{
-	if iframes == false{
-		other.currenthp = other.currenthp - 1;
-		iframes = true;
-		alarm[2] = 30;
-		other.alarm[5]=1;
-		//stop this thing from moving for a sec, so the player can run
-		//also shit gets fucky if you stick to the player
-		freeze = true
-		alarm[3]=40;
-		audio_play_sound(sound_player_hit, 11, false);
+if exploded == false {
+	exploded = true;
+	audio_play_sound(sound_boom, 11, false);
+	var _newinstance = instance_create_layer(x +25+ irandom_range(-10,10), y + - irandom_range(-10,10), "Damage_Text_Layer", obj_damagetext);
+	_newinstance.damage = other.damage
+	_newinstance.color = obj_player.text_col;
+	if other.damage==obj_player.dice_type{
+		_newinstance.color = c_green
 	}
-	//Move player out of enemy
-	with (other){
-		var pdir = point_direction(other.x, other.y, x, y);
-		move_outside_solid(pdir, -1);	
+	if other.damage==1{
+		_newinstance.color = c_red
 	}
+	totalhp = totalhp - other.damage;
+	image_blend=c_red;
+	alarm[11]=5;
 }
+  
