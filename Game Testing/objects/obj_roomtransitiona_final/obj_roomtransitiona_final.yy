@@ -31,8 +31,8 @@
   "solid":false,
   "spriteId":null,
   "spriteMaskId":{
-    "name":"spr_shooter",
-    "path":"sprites/spr_shooter/spr_shooter.yy",
+    "name":"Player_sprite",
+    "path":"sprites/Player_sprite/Player_sprite.yy",
   },
   "visible":true,
 }
