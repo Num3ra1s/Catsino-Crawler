@@ -7,7 +7,7 @@ if(!obj_player.paused){
 	}
 	if canshoot == true{
 		canshoot=false;
-		alarm[0]=60;
+		alarm[0]=30;
 	}
 	//let player dash through enemy 
 	if obj_player.dashing == true{
