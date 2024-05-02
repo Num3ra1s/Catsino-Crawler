@@ -41,8 +41,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_miniboss",
-    "path":"sprites/spr_miniboss/spr_miniboss.yy",
+    "name":"spr_miniboss1",
+    "path":"sprites/spr_miniboss1/spr_miniboss1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

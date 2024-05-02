@@ -5,9 +5,9 @@
 event_inherited();
 
 //dialog.add(spr_dialog_louie, "Testing");
-dialog.add(spr_dialog_louie, "Smoke curled like a snake from Fortuna's barrel. Those Dog Mafia robots didn't stand a chance. A few years ago, you could find them roughing up poor marks in every other alley. Now, they dealt poker and served drinks here.");
-dialog.add(spr_dialog_shadow, "The Shadowcat stood behind the bar for some reason I didn\'t have the brain cells to deduce. It polished the counter like it wanted a mirror.\" Looks like I picked right :3,\" it purred. \"A nice strong gun arm and very few qualms about doing the right thing!\"");
-dialog.add(spr_dialog_louie, "I put the key into the first lock. Two to go. \"The right thing? Don\'t kid me, demon.\" My trigger hand shook.");
-dialog.add(spr_dialog_shadow, "\"Wow, no need to get heated!\" It juggled a martini shaker. \"Have a drink to calm your nerves!\"");
-dialog.add(spr_dialog_louie, "It poured a whiskey on the rocks. My favorite, and the last I\'d had before the bartender cut me off earlier. Perspiration rolled down the glass and down my forehead.");
-dialog.add(spr_dialog_louie, "I slammed it back. The Shadowcat was right-- I felt ready to go all in. I hefted Fortuna and got to work.");
+
+dialog.add(spr_dialog_louie, "The Shadowcat flashed a cheshire grin. It was trying to project confidence, but it came off more like a con man. I was already in too deep to fold, so I ignored it and inserted the second key. One to go.");
+dialog.add(spr_dialog_shadow, "\"What, cat got your tongue?\" it smirked. \"You can spill your guts to your ole\' pal anytime!\"");
+dialog.add(spr_dialog_louie, "I\'d just come back from spilling my guts all over the casino floor for it. \"Who are you, anyway? I\'ve seen a lot, and you ain\'t like any cat I\'ve ever seen.\"");
+dialog.add(spr_dialog_shadow, "\"I\'m a shadow, silly! In all the meanings of the word ;)\" It pushed me a glass of whiskey, cool and dark. \"You\'re starting to look like a shadow yourself! Drink up :3\"");
+dialog.add(spr_dialog_louie, "I drank. Back to the grind.");
