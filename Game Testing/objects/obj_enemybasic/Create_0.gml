@@ -3,3 +3,4 @@
 totalhp=10;
 iframes=false;
 freeze=false;
+exploded=false;

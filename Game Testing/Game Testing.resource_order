@@ -54,6 +54,7 @@
     {"name":"sound_music","order":3,"path":"sounds/sound_music/sound_music.yy",},
     {"name":"sound_player_hit","order":2,"path":"sounds/sound_player_hit/sound_player_hit.yy",},
     {"name":"sound_yippee","order":4,"path":"sounds/sound_yippee/sound_yippee.yy",},
+    {"name":"sound_boom","order":5,"path":"sounds/sound_boom/sound_boom.yy",},
     {"name":"intro_background","order":2,"path":"sprites/intro_background/intro_background.yy",},
     {"name":"LobbySprites","order":1,"path":"sprites/LobbySprites/LobbySprites.yy",},
     {"name":"LobbySpritesLarge","order":3,"path":"sprites/LobbySpritesLarge/LobbySpritesLarge.yy",},

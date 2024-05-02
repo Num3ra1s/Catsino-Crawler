@@ -3,3 +3,4 @@
 totalhp=400;
 iframes=false;
 canshoot=true;
+exploded=false;

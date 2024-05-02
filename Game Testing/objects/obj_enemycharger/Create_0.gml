@@ -6,3 +6,4 @@ chargeready=false;
 charging = false;
 freeze = false;
 alarm[0]=120;
+exploded=false;

@@ -108,6 +108,7 @@
     {"id":{"name":"sound_music","path":"sounds/sound_music/sound_music.yy",},},
     {"id":{"name":"sound_player_hit","path":"sounds/sound_player_hit/sound_player_hit.yy",},},
     {"id":{"name":"sound_yippee","path":"sounds/sound_yippee/sound_yippee.yy",},},
+    {"id":{"name":"sound_boom","path":"sounds/sound_boom/sound_boom.yy",},},
     {"id":{"name":"intro_background","path":"sprites/intro_background/intro_background.yy",},},
     {"id":{"name":"LobbySprites","path":"sprites/LobbySprites/LobbySprites.yy",},},
     {"id":{"name":"LobbySpritesLarge","path":"sprites/LobbySpritesLarge/LobbySpritesLarge.yy",},},
