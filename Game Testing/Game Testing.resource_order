@@ -33,6 +33,7 @@
     {"name":"obj_key","order":5,"path":"objects/obj_key/obj_key.yy",},
     {"name":"obj_level1door","order":7,"path":"objects/obj_level1door/obj_level1door.yy",},
     {"name":"obj_level2door","order":6,"path":"objects/obj_level2door/obj_level2door.yy",},
+    {"name":"obj_level3door","order":8,"path":"objects/obj_level3door/obj_level3door.yy",},
     {"name":"obj_levelbullet","order":5,"path":"objects/obj_levelbullet/obj_levelbullet.yy",},
     {"name":"obj_levelshooter","order":3,"path":"objects/obj_levelshooter/obj_levelshooter.yy",},
     {"name":"obj_menu","order":6,"path":"objects/obj_menu/obj_menu.yy",},
