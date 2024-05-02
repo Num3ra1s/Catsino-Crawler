@@ -25,19 +25,19 @@ if(!paused){
 	y= clamp(y,20,room_height-70);
 	//collision code for dashing
 	if !place_free(x+12,y) && temp_direction == 0{
-		motion_set(temp_direction, 0);
+		motion_set(direction, 0);
 		launched=false;
 	}
 	if !place_free(x-12,y) && temp_direction == 180{
-		motion_set(temp_direction, 0);
+		motion_set(direction, 0);
 		launched=false;
 	}
 	if !place_free(x,y+12) && temp_direction == 270{
-		motion_set(temp_direction, 0);
+		motion_set(direction, 0);
 		launched=false;
 	}
 	if !place_free(x,y-12) && temp_direction == 90{
-		motion_set(temp_direction, 0);
+		motion_set(direction, 0);
 		launched=false;
 	}
 

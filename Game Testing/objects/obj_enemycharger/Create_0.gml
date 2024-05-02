@@ -1,6 +1,6 @@
 /// @description Variables
 // You can write your code in this editor
-totalhp=25;
+totalhp=35;
 iframes=false;
 chargeready=false;
 charging = false;
