@@ -25,9 +25,9 @@ if(!obj_player.paused){
 	y= clamp(y,20,room_height-70);
 }
 	//let player dash through enemy 
-	if obj_player.dashing == true{
-		solid = false	
-	}
-	else{
-		solid = true;	
-	}
+	//if obj_player.dashing == true{
+	//	solid = false	
+	//}
+	//else{
+	//	solid = true;	
+	//}

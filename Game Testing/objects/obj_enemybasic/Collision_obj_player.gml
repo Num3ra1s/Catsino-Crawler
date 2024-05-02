@@ -13,8 +13,8 @@ if other.dashing == false{
 		audio_play_sound(sound_player_hit, 11, false);
 	}
 	//Move player out of enemy
-	with (other){
-		var pdir = point_direction(other.x, other.y, x, y);
-		move_outside_solid(pdir, -1);	
-	}
+	//with (other){
+	//	var pdir = point_direction(other.x, other.y, x, y);
+	//	move_outside_solid(pdir, -1);	
+	//}
 }

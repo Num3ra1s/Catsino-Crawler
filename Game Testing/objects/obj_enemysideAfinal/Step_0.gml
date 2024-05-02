@@ -8,7 +8,7 @@ if(!obj_player.paused){
 	//image_angle=point_direction(x,y,obj_player.x,obj_player.y);
 	if canshoot == true{
 		canshoot=false;
-		alarm[0]=12
+		alarm[0]=20;
 	}
 	//let player dash through enemy 
 	if obj_player.dashing == true{

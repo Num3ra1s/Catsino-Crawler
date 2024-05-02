@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_levelshooter",
+  "%Name":"obj_roomtransition2b_3b",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_levelshooter",
+  "name":"obj_roomtransition2b_3b",
   "overriddenProperties":[],
   "parent":{
-    "name":"Level Items",
-    "path":"folders/Objects/Level Items.yy",
+    "name":"RoomTransitions",
+    "path":"folders/Objects/RoomTransitions.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,11 +28,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
-  "spriteId":{
-    "name":"spr_levelshooter",
-    "path":"sprites/spr_levelshooter/spr_levelshooter.yy",
+  "solid":false,
+  "spriteId":null,
+  "spriteMaskId":{
+    "name":"Player_sprite",
+    "path":"sprites/Player_sprite/Player_sprite.yy",
   },
-  "spriteMaskId":null,
   "visible":true,
 }
