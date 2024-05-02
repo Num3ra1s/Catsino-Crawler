@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"obj_enemysideAfinal",
+  "%Name":"obj_enemysideCfinal",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -13,7 +13,7 @@
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":11,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_enemysideAfinal",
+  "name":"obj_enemysideCfinal",
   "overriddenProperties":[],
   "parent":{
     "name":"Enemies",

@@ -18,4 +18,3 @@ if other.dashing == false{
 		//}
 	}
 }
-  
