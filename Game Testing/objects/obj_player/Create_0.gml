@@ -47,7 +47,7 @@ audio_play_sound(sound_music, 10, true);
 text_col = c_black;
 paused = false;
 
-level = 0;
+level = 2;
 rooms_a = [Room1A, Room2A, Room3A];
 rooms_b = [Room1B]
 
