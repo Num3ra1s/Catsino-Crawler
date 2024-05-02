@@ -1,10 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
-if obj_player.deaths > 1 {
+if obj_player.deaths > 1 && !obj_player.victory {
 	if(!showing_dialog) {
 		if(dialog.count() <= 0) {
 			obj_player.paused = false;
 			obj_player.currenthp = 20;
+			obj_player.victory = false;
 			layer_set_visible("Paused", false);
 			instance_destroy();
 			//room_goto(Room0);

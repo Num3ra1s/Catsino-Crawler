@@ -39,7 +39,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
     "name":"spr_miniboss",
     "path":"sprites/spr_miniboss/spr_miniboss.yy",

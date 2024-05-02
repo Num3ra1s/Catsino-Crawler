@@ -1,6 +1,8 @@
 /// @description Shoot
 // You can write your code in this editor
-var shot = instance_create_layer(x, y, "Bullets_Layer", obj_enemybullet);
-shot.direction=shot.direction+irandom_range(-20,20);
-shot.image_angle=shot.direction;
+for (var i=1;i<=4;i++) {
+	var bullet = instance_create_layer(x, y, "Bullets_Layer", obj_straightbullet);
+	bullet.angle = 90*i + angle;
+}
 canshoot=true;
+angle += 15;

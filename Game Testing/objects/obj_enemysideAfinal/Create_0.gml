@@ -4,3 +4,4 @@ totalhp=400;
 iframes=false;
 canshoot=true;
 exploded=false;
+angle = 0;
