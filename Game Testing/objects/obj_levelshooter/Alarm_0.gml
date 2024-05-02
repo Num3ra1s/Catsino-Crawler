@@ -11,7 +11,7 @@ if image_angle == 0 {
 } else {
 	instance_create_layer(x, y, "Bullets_Layer", obj_levelbulletdown);
 }*/
-if instance_number(obj_enemies) >= 1{
+if instance_number(obj_enemies) >= 1 && !instance_number(obj_key) > 0{
 	var bullet = instance_create_layer(x, y, "Bullets_Layer", obj_levelbullet);
 	bullet.angle = image_angle;
 }

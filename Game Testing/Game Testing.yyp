@@ -85,6 +85,7 @@
     {"id":{"name":"obj_roomtransition1b_2b","path":"objects/obj_roomtransition1b_2b/obj_roomtransition1b_2b.yy",},},
     {"id":{"name":"obj_roomtransition2a_1a","path":"objects/obj_roomtransition2a_1a/obj_roomtransition2a_1a.yy",},},
     {"id":{"name":"obj_roomtransition2a_3a","path":"objects/obj_roomtransition2a_3a/obj_roomtransition2a_3a.yy",},},
+    {"id":{"name":"obj_roomtransition2b_3b","path":"objects/obj_roomtransition2b_3b/obj_roomtransition2b_3b.yy",},},
     {"id":{"name":"obj_roomtransition3a_2a","path":"objects/obj_roomtransition3a_2a/obj_roomtransition3a_2a.yy",},},
     {"id":{"name":"obj_roomtransitiona_0","path":"objects/obj_roomtransitiona_0/obj_roomtransitiona_0.yy",},},
     {"id":{"name":"obj_roulettewheel","path":"objects/obj_roulettewheel/obj_roulettewheel.yy",},},
@@ -99,6 +100,7 @@
     {"id":{"name":"Room2A","path":"rooms/Room2A/Room2A.yy",},},
     {"id":{"name":"Room2B","path":"rooms/Room2B/Room2B.yy",},},
     {"id":{"name":"Room3A","path":"rooms/Room3A/Room3A.yy",},},
+    {"id":{"name":"Room3B","path":"rooms/Room3B/Room3B.yy",},},
     {"id":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
     {"id":{"name":"Dialog","path":"scripts/Dialog/Dialog.yy",},},
     {"id":{"name":"sound_dash","path":"sounds/sound_dash/sound_dash.yy",},},
@@ -160,6 +162,7 @@
     {"roomId":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
     {"roomId":{"name":"Room3A","path":"rooms/Room3A/Room3A.yy",},},
     {"roomId":{"name":"Room2B","path":"rooms/Room2B/Room2B.yy",},},
+    {"roomId":{"name":"Room3B","path":"rooms/Room3B/Room3B.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
