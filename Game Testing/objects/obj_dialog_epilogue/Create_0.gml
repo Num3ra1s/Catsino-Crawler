@@ -13,3 +13,7 @@ dialog.add(spr_dialog_shadow, "Shadow filled the room, dimming the light further
 dialog.add(spr_dialog_shadow, "\"Lights up! It\'s showtime!\" String lights came on, flickering and fearful. In the glass of the skyscraper across the street, the reflection of the casino was transformed. Instead of a solid doghouse, it was a branched cat tree. I read the name backwards: \"Catsino.\"");
 dialog.add(spr_dialog_shadow, "\"And I have you to thank!\" The Shadowcat didn\'t have a reflection; it just blocked the light. \"You\'re welcome to play here anytime, partner!\"");
 dialog.add(spr_dialog_louie, "I left it then, holding in my grimace. I only had my thoughts for company in the elevator. My thoughts, and my shadow.");
+
+dialog.add(spr_dialog_louie, "Now, the puddles glow in the new lights outside the Catsino. Looks like someone cracked a neon egg on the pavement. I have my lives back. Not everyone gets that second chance. I can reinvent myself, become someone different. Or…");
+dialog.add(spr_dialog_louie, "The casino\’s open now, and my lives command a high premium in the poker pot. I turn around, straighten my tie, and walk into the light.");
+dialog.add(spr_dialog_blank, "CATSINO CRAWLER\nBy Cooper Dawes, Ryan Oet, Minerva Springer Lu, and Audrey Yang");

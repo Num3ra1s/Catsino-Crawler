@@ -7,7 +7,8 @@ if obj_player.level == 4 {
 			obj_player.currenthp = 20;
 			layer_set_visible("Paused", false);
 			instance_destroy();
-			room_goto(Epilogue);
+			//room_goto(Epilogue);
+			game_end();
 			return;
 		}
 		current_dialog = dialog.pop();

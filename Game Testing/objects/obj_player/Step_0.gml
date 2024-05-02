@@ -44,7 +44,7 @@ if(!paused){
 	if !launched{
 		image_angle=0;	
 	}
-	if(instance_number(obj_enemies) <= 0 && !instance_exists(obj_upgrader)){
+	if(instance_number(obj_enemies) <= 0 && !instance_exists(obj_upgrader) && room!=RoomFinal){
 		instance_create_layer(0, 0, "Upgrades", obj_upgrader);
 	} 
 	//kill player
