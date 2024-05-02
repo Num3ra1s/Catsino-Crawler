@@ -5,4 +5,4 @@ draw_healthbar(256,944,768,1008,(totalhp/500 * 100),c_black,c_red,c_green,0,true
 draw_set_halign(fa_center);
 draw_set_colour(c_black);
 draw_set_font(h2_font);
-draw_text(512, 880, "THE PERFORMER");
+draw_text(512, 880, "BLACKJACK-DAW");
