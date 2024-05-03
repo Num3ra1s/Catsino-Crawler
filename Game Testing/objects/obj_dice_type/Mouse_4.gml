@@ -1,6 +1,6 @@
 /// @description Upgrade
 
-if(obj_menu.upgrading){ 
+if(obj_menu.upgrading && obj_player.dice_ind < array_length(obj_player.dice)){ 
 	obj_player.dice_ind += 1;
 	if obj_player.dice_ind == 1 {
 		obj_player.dice_first = true;

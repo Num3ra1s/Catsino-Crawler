@@ -1,4 +1,5 @@
 /// @description Init variables
+randomize();
 mirror=0;
 launched=false;
 dash_count = 3;
@@ -20,13 +21,13 @@ explosion_chance = 0;
 cooldown = [30, 25, 20, 15, 10, 3];
 cooldown_ind = 0;
 
-dice = [6, 8, 10, 12, 20];
+dice = [6, 8, 10, 12, 20, 100];
 dice_ind = 0;
 
 sdice = [15, 30, 45, 60, 75];
 sdice_ind = 0;
 
-ndice = [1, 2, 3, 4, 5];
+ndice = [1, 2, 3, 4, 5, 6];
 ndice_ind = 0;
 
 echance = [0, 12, 10, 8, 6, 4]

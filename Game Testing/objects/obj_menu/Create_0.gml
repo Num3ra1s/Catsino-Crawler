@@ -8,19 +8,19 @@ fonty =  camera_get_view_y(view_camera[0])- 196;
 upgrading = false;
 // check if upgrade needs to be removed from pool
 upgrade_types = [];
-if(obj_player.cooldown_ind < array_length(obj_player.cooldown)){
+if(obj_player.cooldown_ind < (array_length(obj_player.cooldown)-1)){
 	array_push(upgrade_types, obj_cooldown);
 }
-if(obj_player.dice_ind < array_length(obj_player.dice)){
+if(obj_player.dice_ind < (array_length(obj_player.dice)-1)){
 	array_push(upgrade_types, obj_dice_type);
 }
-if(obj_player.ndice_ind < array_length(obj_player.ndice)){
+if(obj_player.ndice_ind < (array_length(obj_player.ndice)-1)){
 	array_push(upgrade_types, obj_num_dice);
 }
 /*if(obj_player.sdice_ind < array_length(obj_player.sdice)){
 	array_push(upgrade_types, obj_spd_dice);
 }*/
-if(obj_player.echance_ind < array_length(obj_player.echance)){
+if(obj_player.echance_ind < (array_length(obj_player.echance)-1)){
 	array_push(upgrade_types, obj_explosion_chance);
 }
 
