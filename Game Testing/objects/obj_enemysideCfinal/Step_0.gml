@@ -17,8 +17,8 @@ if(!obj_player.paused){
 	else{
 		solid = true;	
 	}
-	mp_potential_step(obj_player.x,obj_player.y, 4, false);
-	x = clamp(x,20, room_width-20);
+	//mp_potential_step(obj_player.x,obj_player.y, 4, false);
+	//x = clamp(x,20, room_width-20);
 
-	y= clamp(y,20,room_height-70);
+	//y= clamp(y,20,room_height-70);
 }
