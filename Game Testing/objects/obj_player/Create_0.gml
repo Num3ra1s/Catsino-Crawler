@@ -57,4 +57,9 @@ deaths = 0;
 victory = false;
 boss = false;
 
-room_goto(Room3C)
+tutorial = true;
+
+s_cooldown_ind = 0;
+s_dice_ind = 0;
+s_ndice_ind = 0;
+s_echance_ind = 0;

@@ -44,7 +44,7 @@ if(!paused){
 	if !launched{
 		image_angle=0;	
 	}
-	if(instance_number(obj_enemies) <= 0 && !instance_exists(obj_upgrader) && room!=RoomFinal){
+	if(instance_number(obj_enemies) <= 0 && !instance_exists(obj_upgrader) && room!=RoomFinal &&room!=Room0){
 		instance_create_layer(0, 0, "Upgrades", obj_upgrader);
 	} 
 	//kill player
@@ -61,15 +61,16 @@ if(!paused){
 			deaths = deaths + 1;
 			x = 512;
 			y = 512;
-			cooldown_ind = 0;
+			cooldown_ind = s_cooldown_ind;
 			weapon_cooldown = cooldown[cooldown_ind];
-			dice_ind = 0;
+			dice_ind = s_dice_ind;
 			dice_type = dice[dice_ind];
-			sdice_ind = 0;
-			spd_dice = sdice[sdice_ind];
-			ndice_ind = 0;
+			//sdice_ind = s_sdice_ind;
+			//spd_dice = sdice[sdice_ind];
+			ndice_ind = s_ndice_ind;
 			num_dice = ndice[ndice_ind];
-			echance_ind = 0;
+			echance_ind = s_echance_ind;
+			explosion_chance = echance[echance_ind];
 			currenthp = totalhp;
 		}
 	}
