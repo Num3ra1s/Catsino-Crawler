@@ -56,3 +56,5 @@ rooms_b = [Room1B]
 deaths = 0;
 victory = false;
 boss = false;
+
+room_goto(Room3C)
