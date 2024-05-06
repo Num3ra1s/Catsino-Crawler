@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_miniboss1_bullet",
-    "path":"sprites/spr_miniboss1_bullet/spr_miniboss1_bullet.yy",
+    "name":"spr_miniboss2_bullet",
+    "path":"sprites/spr_miniboss2_bullet/spr_miniboss2_bullet.yy",
   },
   "spriteMaskId":null,
   "visible":true,
