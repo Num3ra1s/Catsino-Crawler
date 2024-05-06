@@ -72,6 +72,9 @@ if(!paused){
 			echance_ind = s_echance_ind;
 			explosion_chance = echance[echance_ind];
 			currenthp = totalhp;
+			victory = false;
 		}
 	}
 }
+
+show_debug_message(dialog1);
