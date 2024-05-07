@@ -44,14 +44,14 @@ if(!paused){
 	if !launched{
 		image_angle=0;	
 	}
-	if(instance_number(obj_enemies) <= 0 && !instance_exists(obj_upgrader) && room!=RoomFinal &&room!=Room0){
+	if(instance_number(obj_enemies) <= 0 && !instance_exists(obj_upgrader) && room!=RoomFinal &&room!=Room0 && room!=Epilogue){
 		instance_create_layer(0, 0, "Upgrades", obj_upgrader);
 	} 
 	//kill player
 	if currenthp<=0 {
 		if boss {
-			x = 512;
-			y = 192;
+			x = 1024;
+			y = 1920;
 			currenthp = totalhp;
 			obj_enemydogfather.totalhp = 600;
 			obj_enemydogfather.x = 512;
@@ -76,5 +76,3 @@ if(!paused){
 		}
 	}
 }
-
-show_debug_message(dialog1);

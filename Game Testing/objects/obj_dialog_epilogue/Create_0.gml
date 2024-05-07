@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
-dialog.add(spr_dialog_louie, "The Dogfather\'s goons fled the scene. The Don himself lay with his pinstripe suit in tatters. They say all dogs go to heaven—lucky bastard. I figured I\'d retire somewhere warmer. I plucked the lockbox key from his cooling paws.");
+dialog.add(spr_dialog_louie, "The Dogfather\'s goons fled the scene. The Don himself lay with his pinstripe suit in tatters. They say all dogs go to heaven-lucky bastard. I figured I\'d retire somewhere warmer. I plucked the lockbox key from his cooling paws.");
 dialog.add(spr_dialog_louie, "I threw open the lockbox door, key still in the lock, and snatched the little IOU notes that fluttered out. As I shredded them with my claws, I felt my lives flow back into me. I may have stumbled a bit along the road, but the cards always come up Louie Nine-Lives.");
 dialog.add(spr_dialog_shadow, "The room filled with clapping. I spun around and leveled Fortuna at the figure sitting in the Dogfather\'s grand chair. The Shadowcat just smiled its cheshire smile. \"We won, Louie! Isn\'t it *exciting*?\"");
 dialog.add(spr_dialog_louie, "\"I won. You helped.\" I set Fortuna on the desk. \"This is the part where you take your price, isn\'t it? Well? How many lives am I leaving on the table?\"");
@@ -14,6 +14,6 @@ dialog.add(spr_dialog_shadow, "\"Lights up! It\'s showtime!\" String lights came
 dialog.add(spr_dialog_shadow, "\"And I have you to thank!\" The Shadowcat didn\'t have a reflection; it just blocked the light. \"You\'re welcome to play here anytime, partner!\"");
 dialog.add(spr_dialog_louie, "I left it then, holding in my grimace. I only had my thoughts for company in the elevator. My thoughts, and my shadow.");
 
-dialog.add(spr_dialog_louie, "Now, the puddles glow in the new lights outside the Catsino. Looks like someone cracked a neon egg on the pavement. I have my lives back. Not everyone gets that second chance. I can reinvent myself, become someone different. Or…");
-dialog.add(spr_dialog_louie, "The casino\’s open now, and my lives command a high premium in the poker pot. I turn around, straighten my tie, and walk into the light.");
-dialog.add(spr_dialog_blank, "CATSINO CRAWLER\nBy Cooper Dawes, Ryan Oet, Minerva Springer Lu, and Audrey Yang");
+//dialog.add(spr_dialog_louie, "Now, the puddles glow in the new lights outside the Catsino. Looks like someone cracked a neon egg on the pavement. I have my lives back. Not everyone gets that second chance. I can reinvent myself, become someone different. Or...");
+//dialog.add(spr_dialog_louie, "The casino\'s open now, and my lives command a high premium in the poker pot. I turn around, straighten my tie, and walk into the light.");
+//dialog.add(spr_dialog_blank, "CATSINO CRAWLER\nBy Cooper Dawes, Ryan Oet, Minerva Springer Lu, and Audrey Yang");

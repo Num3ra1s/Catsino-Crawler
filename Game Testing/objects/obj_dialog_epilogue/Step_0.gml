@@ -6,9 +6,13 @@ if obj_player.level == 4 {
 			obj_player.paused = false;
 			obj_player.currenthp = obj_player.totalhp;
 			layer_set_visible("Paused", false);
+			layer_set_visible("Epilogue", true);
+			instance_create_layer(0, 0, "Upgrades", obj_dialog_epilogue2);
+			obj_player.x=512;
+			obj_player.y=512;
 			instance_destroy();
-			//room_goto(Epilogue);
-			game_end();
+			//obj_player.visible = false;
+			//game_end();
 			return;
 		}
 		current_dialog = dialog.pop();

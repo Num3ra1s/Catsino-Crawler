@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_locked_door",
-    "path":"sprites/spr_locked_door/spr_locked_door.yy",
+    "name":"spr_elevator_door",
+    "path":"sprites/spr_elevator_door/spr_elevator_door.yy",
   },
   "spriteMaskId":null,
   "visible":true,
