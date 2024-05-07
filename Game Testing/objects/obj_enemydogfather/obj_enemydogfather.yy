@@ -41,8 +41,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_miniboss3",
-    "path":"sprites/spr_miniboss3/spr_miniboss3.yy",
+    "name":"spr_dogfather_small",
+    "path":"sprites/spr_dogfather_small/spr_dogfather_small.yy",
   },
   "spriteMaskId":null,
   "visible":true,

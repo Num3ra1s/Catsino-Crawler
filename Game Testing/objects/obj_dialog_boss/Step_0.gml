@@ -6,6 +6,9 @@ if true {
 			obj_player.paused = false;
 			obj_player.currenthp = obj_player.totalhp;
 			layer_set_visible("Paused", false);
+			obj_enemydogfather.sprite_index = spr_dogfather_large;
+			obj_enemydogfather.image_xscale = 6.81;
+			obj_enemydogfather.image_yscale = 6.81;
 			instance_destroy();
 			//room_goto(Room0);
 			return;

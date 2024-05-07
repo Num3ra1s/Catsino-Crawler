@@ -66,3 +66,4 @@ s_cooldown_ind = 0;
 s_dice_ind = 0;
 s_ndice_ind = 0;
 s_echance_ind = 0;
+level = 3;
