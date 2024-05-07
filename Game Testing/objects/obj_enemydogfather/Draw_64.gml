@@ -6,3 +6,8 @@ draw_set_halign(fa_center);
 draw_set_colour(c_black);
 draw_set_font(h2_font);
 draw_text(512, 880, "THE DOGFATHER");
+if(obj_player.x >= x) {
+	image_xscale = -6.81;
+} else {
+	image_xscale = 6.81;
+}
