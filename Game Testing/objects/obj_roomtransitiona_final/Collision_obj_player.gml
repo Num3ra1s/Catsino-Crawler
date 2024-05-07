@@ -4,5 +4,5 @@ room_goto(RoomFinal);
 obj_player.victory = false;
 obj_player.boss = true;
 obj_player.text_col = c_black;
-other.x = 512
-other.y = 192;
+other.x = 1024;
+other.y = 1920;

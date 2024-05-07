@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
-dialog.add(spr_dialog_louie, "I stumbled out of the Doghouse Casino, pushed by the robotic bouncers. I\'d spent my life there, literally, but even the high-roller Louie One-Life had to observe the Dog Mafia\'s hours.");
+dialog.add(spr_dialog_louie, "I stumbled out of the Doghouse Casino, pushed by the robotic bouncers. I\'d spent my life there, literally, but even the high-roller Louie One-Life had to observe the Dog Mafia\'s hours. (PRESS SPACE)");
 dialog.add(spr_dialog_louie, "The rain beat down, smoky and black, pooling in the street. All I had to my name was twenty catnip cigarettes, my trusty .38 magnum Fortuna, and my ninth life. How long could I hold onto the last? I lit a cig and took a drag, warming my lungs and my cold, cold heart.");
 dialog.add(spr_dialog_louie, "A shadow fell across me. I spun and leveled Fortuna at it. My cigarette hissed as it fell into a puddle. Damn. Nineteen now.");
 dialog.add(spr_dialog_shadow, "The shadow creature spoke in a twisting, hissing voice. \"Careful with that,\" it said, ignoring the cold steel in its face. \"Don\'t wanna risk your last life, do ya? I\'m here to give you a helping paw!\"");
