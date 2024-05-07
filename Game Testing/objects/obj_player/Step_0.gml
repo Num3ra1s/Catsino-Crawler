@@ -59,8 +59,8 @@ if(!paused){
 		} else  {
 			room_goto(Room0);
 			deaths = deaths + 1;
-			x = 512;
-			y = 512;
+			x = 1024;
+			y = 1920;
 			cooldown_ind = s_cooldown_ind;
 			weapon_cooldown = cooldown[cooldown_ind];
 			dice_ind = s_dice_ind;
@@ -76,5 +76,3 @@ if(!paused){
 		}
 	}
 }
-
-show_debug_message(dialog1);

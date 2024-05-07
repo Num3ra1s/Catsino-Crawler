@@ -21,8 +21,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"TheaterSprites",
-    "path":"sprites/TheaterSprites/TheaterSprites.yy",
+    "name":"TheaterSpritesV2",
+    "path":"sprites/TheaterSpritesV2/TheaterSpritesV2.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
