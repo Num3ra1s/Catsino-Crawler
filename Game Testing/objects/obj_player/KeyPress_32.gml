@@ -12,7 +12,7 @@ if !paused && !launched {
 		image_blend=col;
 		audio_play_sound(sound_dash, 11, false);
 		motion_add(direction, 15);
-		alarm[0]=12;
-		alarm[1]=15;
+		alarm[0]=20;
+		alarm[1]=23;
 	}
 }
