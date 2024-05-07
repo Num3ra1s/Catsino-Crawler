@@ -15,7 +15,7 @@ weapon = WEAPON_TYPES.GUN;
 weapon_cooldown = 30;
 dice_type = 500;
 spd_dice = 15;
-num_dice = 1;
+num_dice = 3;
 explosion_chance = 0;
 
 cooldown = [30, 25, 20, 15, 10, 3];
@@ -28,7 +28,7 @@ sdice = [15, 30, 45, 60, 75];
 sdice_ind = 0;
 
 ndice = [1, 2, 3, 4, 5, 6];
-ndice_ind = 0;
+ndice_ind = 2;
 
 echance = [0, 12, 10, 8, 6, 4]
 echance_ind = 0;
