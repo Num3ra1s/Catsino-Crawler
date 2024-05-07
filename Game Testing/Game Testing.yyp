@@ -128,6 +128,7 @@
     {"id":{"name":"Room3B","path":"rooms/Room3B/Room3B.yy",},},
     {"id":{"name":"Room3C","path":"rooms/Room3C/Room3C.yy",},},
     {"id":{"name":"RoomFinal","path":"rooms/RoomFinal/RoomFinal.yy",},},
+    {"id":{"name":"Start","path":"rooms/Start/Start.yy",},},
     {"id":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
     {"id":{"name":"Dialog","path":"scripts/Dialog/Dialog.yy",},},
     {"id":{"name":"sound_boom","path":"sounds/sound_boom/sound_boom.yy",},},
@@ -194,6 +195,7 @@
     {"id":{"name":"spr_walker","path":"sprites/spr_walker/spr_walker.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
+    {"id":{"name":"menu_background","path":"sprites/menu_background/menu_background.yy",},},
     {"id":{"name":"TheaterSprites","path":"sprites/TheaterSprites/TheaterSprites.yy",},},
     {"id":{"name":"TheaterSpritesV2","path":"sprites/TheaterSpritesV2/TheaterSpritesV2.yy",},},
     {"id":{"name":"CardsTileSet","path":"tilesets/CardsTileSet/CardsTileSet.yy",},},
@@ -221,6 +223,7 @@
     {"roomId":{"name":"RoomFinal","path":"rooms/RoomFinal/RoomFinal.yy",},},
     {"roomId":{"name":"Epilogue","path":"rooms/Epilogue/Epilogue.yy",},},
     {"roomId":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
+    {"roomId":{"name":"Start","path":"rooms/Start/Start.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
