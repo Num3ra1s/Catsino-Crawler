@@ -1,9 +1,15 @@
 /// @description Step Code
 // You can write your code in this editor
 
+if(obj_player.tutorial == false) {
+	instance_destroy();
+}
+
 if(!obj_player.paused){
 	if totalhp <= 0{
-		instance_destroy()
+		obj_player.tutorial = false;
+		instance_create_layer(0, 0, "Upgrades", obj_upgrader);
+		instance_destroy();
 	}
 	if freeze == false{
 	mp_potential_step(obj_player.x,obj_player.y, 3.5, false);

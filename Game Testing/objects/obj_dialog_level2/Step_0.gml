@@ -1,9 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
-if obj_player.level == 2 {
+if obj_player.level == 2 && obj_player.dialog2 {
 	if(!showing_dialog) {
 		if(dialog.count() <= 0) {
 			obj_player.paused = false;
+			obj_player.dialog2 = false;
 			obj_player.currenthp = obj_player.totalhp;
 			layer_set_visible("Paused", false);
 			instance_destroy();

@@ -1,6 +1,6 @@
 /// @description Variables
 // You can write your code in this editor
-totalhp=600;
+totalhp=10;
 iframes=false;
-canshoot=true;
+freeze=false;
 exploded=false;

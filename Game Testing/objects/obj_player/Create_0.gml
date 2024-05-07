@@ -56,3 +56,13 @@ rooms_b = [Room1B]
 deaths = 0;
 victory = false;
 boss = false;
+
+tutorial = true;
+dialog1 = true;
+dialog2 = true;
+dialog3 = true;
+
+s_cooldown_ind = 0;
+s_dice_ind = 0;
+s_ndice_ind = 0;
+s_echance_ind = 0;
