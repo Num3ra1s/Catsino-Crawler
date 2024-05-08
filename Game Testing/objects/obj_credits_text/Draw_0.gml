@@ -5,6 +5,6 @@ draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 
 draw_text(512, y, 
-	"Minerva Springer: Writing & Project Management \nCooper Dawes: Programming \nRyan Oet: Programming & Sound Design \nAudrey Yang: Art \n\n Spring 2024");
+	"Minerva Springer Lu: Writing & Project Management \nCooper Dawes: Programming \nRyan Oet: Programming & Sound Design \nAudrey Yang: Art \n\n Spring 2024");
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
