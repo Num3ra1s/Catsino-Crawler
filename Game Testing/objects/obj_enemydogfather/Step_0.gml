@@ -27,21 +27,28 @@ if(!obj_player.paused){
 		}
 		if attacktype==2 {
 			attacktype=-1;
+			//Commically Large Bullet Attack
+			var bullet = instance_create_layer(x, y, "Bullets_Layer", obj_enemybullet);
+			bullet.image_xscale=bullet.image_xscale*5;
+			bullet.image_yscale=bullet.image_yscale*5;
+			bullet.speed=25;
 			alarm[0]=150;
 		}
 		if attacktype==3 {
 			attacktype=-1;
-			alarm[0]=150;
+			//charge forward attack
+			walkingspeed=6.5;
+			alarm[3]=150;
 		}
 	}
 	//let player dash through enemy 
-	if obj_player.dashing == true{
-		solid = false	
-	}
-	else{
-		solid = true;	
-	}
-	mp_potential_step(obj_player.x,obj_player.y, 2, false);
+//	if obj_player.dashing == true{
+//		solid = false	
+//	}
+//	else{
+//		solid = true;	
+//	}
+	mp_potential_step(obj_player.x,obj_player.y, walkingspeed, false);
 	x = clamp(x,20, room_width-20);
 
 	y= clamp(y,20,room_height-70);

@@ -5,6 +5,7 @@ iframes=false;
 canattack=true;
 attacktype=0;
 exploded=false;
+walkingspeed=2;
 //these three are for spin attack
 canshoot=true;
 angle = 0;
