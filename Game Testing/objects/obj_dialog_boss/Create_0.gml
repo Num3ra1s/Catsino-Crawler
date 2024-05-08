@@ -12,6 +12,6 @@ dialog.add(spr_dialog_louie, "\"I don\'t,\" I lied. \"It\'s time for you to take
 dialog.add(spr_dialog_dogfather, "\"That\'s a crying shame, Louie. We need high-rollers like you. You give people a dream-- a dream of winning it all. And dreamers are so, so easy to use.\"");
 dialog.add(spr_dialog_louie, "\"You prey on innocent cats! You deal illicit catnip! You stole my eight lives! Your crimes end here!\" I waved Fortuna around. Usually that was enough to shut people up. Not him, apparently. ");
 dialog.add(spr_dialog_dogfather, "He barked an ashy laugh. \"Crimes? The Dog Mafia is in the casino business now! Before, we could rob maybe a few dozen cats a day, get a few more hooked on catnip. Now, we can roll hundreds in an hour! And the best part is, they hand over their wallets willingly, chasing the dream of winning big.");
-dialog.add(spr_dialog_dogfather, "Join us, Louie. You know that the Doghouse always wins.\" He offered his paw. The goons lowered their guns."
+dialog.add(spr_dialog_dogfather, "Join us, Louie. You know that the Doghouse always wins.\" He offered his paw. The goons lowered their guns.");
 dialog.add(spr_dialog_dogfather, "\"And if you\'re a good kitty, we might even give you your lives back.\"");
 dialog.add(spr_dialog_louie, "\"You can\'t leash Louie Nine-Lives,\" I growled, and pulled the trigger.");
