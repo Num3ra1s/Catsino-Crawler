@@ -1,6 +1,11 @@
 /// @description Variables
 // You can write your code in this editor
-totalhp=600;
+totalhp=1500;
 iframes=false;
-canshoot=true;
+canattack=true;
+attacktype=0;
 exploded=false;
+//these three are for spin attack
+canshoot=true;
+angle = 0;
+timesshot=0;
