@@ -7,3 +7,4 @@ charging = false;
 freeze = false;
 first = true;
 exploded=false;
+alarm[0]=100;

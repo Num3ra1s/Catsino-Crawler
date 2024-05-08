@@ -1,6 +1,6 @@
 /// @description Variables
 // You can write your code in this editor
-totalhp=1000;
+totalhp=1500;
 iframes=false;
 canattack=true;
 attacktype=0;
