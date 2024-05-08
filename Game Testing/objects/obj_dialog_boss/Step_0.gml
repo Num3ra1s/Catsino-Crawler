@@ -9,6 +9,7 @@ if true {
 			obj_enemydogfather.sprite_index = spr_dogfather_large;
 			obj_enemydogfather.image_xscale = 6.81;
 			obj_enemydogfather.image_yscale = 6.81;
+			obj_player.y = obj_player.y - 128;
 			instance_destroy();
 			//room_goto(Room0);
 			return;

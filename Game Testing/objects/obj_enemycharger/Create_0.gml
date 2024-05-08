@@ -5,5 +5,5 @@ iframes=false;
 chargeready=false;
 charging = false;
 freeze = false;
-alarm[0]=120;
+first = true;
 exploded=false;
