@@ -3,4 +3,4 @@
 room_goto(Room3C);
 obj_player.text_col = c_white;
 other.x = 1024;
-other.y = 1924;
+other.y = 1280;

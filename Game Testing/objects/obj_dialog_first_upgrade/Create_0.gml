@@ -11,7 +11,7 @@ if(obj_player.cooldown_first) {
 	dialog.add(spr_dialog_shadow, "\"Who needs those crappy six-sided dice? Did you know they make eight-sided dice? Now you do!\"");
 	obj_player.dice_first = false;
 } else if(obj_player.num_dice_first){
-	dialog.add(spr_dialog_shadow, "\"More dice means more havoc, nya!\"");
+	dialog.add(spr_dialog_shadow, "\"Have more dice! Sometimes! Nya!\"");
 	obj_player.num_dice_first = false;
 } else if(obj_player.explosion_chance_first){
 	dialog.add(spr_dialog_shadow, "\"I put grenades in some of the dice! Enjoy ;3\"");

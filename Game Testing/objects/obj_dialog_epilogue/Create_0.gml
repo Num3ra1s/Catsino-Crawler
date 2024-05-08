@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
-dialog.add(spr_dialog_louie, "The Dogfather\'s goons fled the scene. The Don himself lay with his pinstripe suit in tatters. They say all dogs go to heaven-lucky bastard. I figured I\'d retire somewhere warmer. I plucked the lockbox key from his cooling paws.");
+dialog.add(spr_dialog_louie, "The Dogfather\'s goons fled the scene. The Don himself lay with his pinstripe suit in tatters. They say all dogs go to heaven-- lucky bastard. I figured I\'d retire somewhere warmer. I plucked the lockbox key from his cooling paws.");
 dialog.add(spr_dialog_louie, "I threw open the lockbox door, key still in the lock, and snatched the little IOU notes that fluttered out. As I shredded them with my claws, I felt my lives flow back into me. I may have stumbled a bit along the road, but the cards always come up Louie Nine-Lives.");
 dialog.add(spr_dialog_shadow, "The room filled with clapping. I spun around and leveled Fortuna at the figure sitting in the Dogfather\'s grand chair. The Shadowcat just smiled its cheshire smile. \"We won, Louie! Isn\'t it *exciting*?\"");
 dialog.add(spr_dialog_louie, "\"I won. You helped.\" I set Fortuna on the desk. \"This is the part where you take your price, isn\'t it? Well? How many lives am I leaving on the table?\"");
