@@ -53,7 +53,7 @@ if(!paused){
 			x = 1024;
 			y = 1792;
 			currenthp = totalhp;
-			obj_enemydogfather.totalhp = 1500;
+			obj_enemydogfather.totalhp = 1000;
 			obj_enemydogfather.x = 992;
 			obj_enemydogfather.y = 992;
 			deaths = deaths + 1;
