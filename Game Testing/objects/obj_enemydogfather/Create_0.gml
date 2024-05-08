@@ -9,3 +9,4 @@ exploded=false;
 canshoot=true;
 angle = 0;
 timesshot=0;
+walkingspeed=2;

@@ -50,10 +50,10 @@ if(!paused){
 	//kill player
 	if currenthp<=0 {
 		if boss {
-			x = 992;
-			y = 1472;
+			x = 1024;
+			y = 1792;
 			currenthp = totalhp;
-			obj_enemydogfather.totalhp = 800;
+			obj_enemydogfather.totalhp = 1500;
 			obj_enemydogfather.x = 992;
 			obj_enemydogfather.y = 992;
 			deaths = deaths + 1;

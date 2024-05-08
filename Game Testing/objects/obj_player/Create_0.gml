@@ -21,7 +21,7 @@ explosion_chance = 0;
 cooldown = [30, 25, 20, 15, 10, 3];
 cooldown_ind = 0;
 
-dice = [6, 8, 10, 12, 20, 100];
+dice = [6, 8, 10, 12, 20, 50];
 dice_ind = 0;
 
 sdice = [15, 30, 45, 60, 75];
