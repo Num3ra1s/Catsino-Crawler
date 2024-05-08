@@ -32,6 +32,7 @@ if(!obj_player.paused){
 			bullet.image_xscale=bullet.image_xscale*5;
 			bullet.image_yscale=bullet.image_yscale*5;
 			bullet.speed=25;
+			bullet.damage=3;
 			alarm[0]=150;
 		}
 		if attacktype==3 {

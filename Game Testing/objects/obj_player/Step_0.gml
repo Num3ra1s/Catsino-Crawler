@@ -62,6 +62,8 @@ if(!paused){
 			deaths = deaths + 1;
 			x = 512;
 			y = 512;
+			launched=false;
+			image_angle=0;
 			cooldown_ind = s_cooldown_ind;
 			weapon_cooldown = cooldown[cooldown_ind];
 			dice_ind = s_dice_ind;
