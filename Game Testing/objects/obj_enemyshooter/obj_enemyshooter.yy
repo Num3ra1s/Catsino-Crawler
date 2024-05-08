@@ -42,8 +42,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_shotgundog",
-    "path":"sprites/spr_shotgundog/spr_shotgundog.yy",
+    "name":"spr_shooterdog",
+    "path":"sprites/spr_shooterdog/spr_shooterdog.yy",
   },
   "spriteMaskId":null,
   "visible":true,
